@@ -1,0 +1,6487 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-28 14:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: blog/templates/blog/admin_blog_post_list.html:24
+#: coach/templates/coach/tip_detail.html:100
+#: coach/templates/coach/tip_list.html:95
+#: grammar/templates/grammar/gramconcept_list.html:12
+#: main/templates/main/model_list.html:12
+msgid "Update"
+msgstr ""
+
+#: blog/templates/blog/blog_details_page.html:4
+msgid "The Blog"
+msgstr ""
+
+#: blog/templates/blog/blog_details_page.html:10
+msgctxt "blog posts"
+msgid "All posts"
+msgstr ""
+
+#: booking/model_ops/booking_ops.py:18
+#, python-brace-format
+msgid "Practice partner session booked for {datetime} on {video_link_url}"
+msgstr ""
+
+#: booking/model_ops/booking_ops.py:37 main/forms/invite_forms.py:23
+#: main/models/user_profile.py:32 main/usecases/profile_questions.py:934
+#: main/usecases/profile_questions.py:1025
+msgid "Practice Partner"
+msgstr ""
+
+#: booking/usecases/booking.py:339
+#, python-brace-format
+msgid "You have been appointed as a {mentor_role} for {sp_name}"
+msgstr ""
+
+#: booking/usecases/booking.py:340
+#, python-brace-format
+msgid ""
+"You have been appointed as a student with {mentor_name} as your "
+"{mentor_title}."
+msgstr ""
+
+#: booking/usecases/mentor_availability.py:81
+#, python-brace-format
+msgid "Action Required: Reactivate Your {role_title} Account"
+msgstr ""
+
+#: checklist/usecases/item_sources/chatbot.py:20
+msgid "Practice conversation with our chatbot"
+msgstr ""
+
+#: checklist/usecases/item_sources/coach.py:20
+#, python-brace-format
+msgid "Read the article \"{title}\""
+msgstr ""
+
+#: checklist/usecases/item_sources/coach.py:36
+msgid "Book a time with a language tutor or practice partner"
+msgstr ""
+
+#: checklist/usecases/item_sources/grammar.py:28
+msgid ""
+"Review my last quiz results, understand my mistakes or prepared questions "
+"for my tutor"
+msgstr ""
+
+#: checklist/usecases/item_sources/grammar.py:30
+msgid "Review the grammars that I need to work on"
+msgstr ""
+
+#: checklist/usecases/item_sources/grammar.py:44
+#, python-brace-format
+msgid ""
+"Read the description and watch the video of the \"{grammar_title}\" grammar"
+msgstr ""
+
+#: checklist/usecases/item_sources/grammar.py:47
+#, python-brace-format
+msgid "Read the description of the \"{grammar_title}\" grammar"
+msgstr ""
+
+#: checklist/usecases/item_sources/grammar.py:64
+msgid "Complete my grammar homework"
+msgstr ""
+
+#: checklist/usecases/item_sources/grammar.py:88
+msgid "Update my Can-do focuses"
+msgstr ""
+
+#: checklist/usecases/item_sources/grammar.py:90
+msgid ""
+"Open my Can-do goals and write some preparation notes, things I want to "
+"learn how to say for when I meet with a Practice Partner"
+msgstr ""
+
+#: checklist/usecases/item_sources/grammar.py:92
+msgid ""
+"Give scores to my Can-do and grammar goals to reflect how confident I am "
+"with each one"
+msgstr ""
+
+#: checklist/usecases/item_sources/plan.py:19
+msgid "Schedule language learning time in my calendar for the coming week"
+msgstr ""
+
+#: checklist/usecases/item_sources/plan.py:21
+msgid ""
+"Put time in my schedule for personal study and plan what I will be doing "
+"during this time"
+msgstr ""
+
+#: checklist/usecases/item_sources/plan.py:33
+#, python-brace-format
+msgid ""
+"Make a plan for how I will immerse myself in situations this week where I "
+"will be surrounded by {target_language}"
+msgstr ""
+
+#: checklist/usecases/item_sources/vocab.py:21
+#, python-brace-format
+msgid "Study the '{deck_title}' deck"
+msgstr ""
+
+#: coach/forms.py:80
+msgid "Coaching advice for the student"
+msgstr ""
+
+#: coach/forms.py:80
+msgid "Coaching advice"
+msgstr ""
+
+#: coach/forms.py:83
+msgid "Application exercise for the student"
+msgstr ""
+
+#: coach/forms.py:83 coach/templates/coach/tip_view_snippet.html:13
+#: coach/templates/coach/tips_subtable.html:27
+msgid "Application"
+msgstr ""
+
+#: coach/forms.py:88
+msgid "Earliest stage this tip will be available"
+msgstr ""
+
+#: coach/forms.py:89
+msgid "Should this article only be shown after a previous article?"
+msgstr ""
+
+#: coach/forms.py:92
+msgid "Write a short question to prompt comments"
+msgstr ""
+
+#: coach/forms.py:202 coach/forms.py:206 coach/models/tipencounter.py:46
+#: coach/templates/coach/licence_details.html:93 grammar/forms.py:24
+#: main/models/vote.py:25 main/usecases/profile_questions.py:27
+#: main/usecases/profile_questions.py:826
+msgid "Yes"
+msgstr ""
+
+#: coach/forms.py:203 coach/forms.py:208 grammar/forms.py:24
+#: main/models/vote.py:25 main/usecases/profile_questions.py:28
+#: main/usecases/profile_questions.py:830
+#: main/usecases/profile_questions.py:988
+msgid "No"
+msgstr ""
+
+#: coach/forms.py:207
+msgid "Not sure"
+msgstr ""
+
+#: coach/forms.py:213
+msgid "Has the author created a new work?"
+msgstr ""
+
+#: coach/forms.py:214
+msgid "i.e. no copy-paste of copyrighted article or content"
+msgstr ""
+
+#: coach/forms.py:220 coach/templates/coach/email/tip_approval_report.html:22
+msgid "Is the article well written?"
+msgstr ""
+
+#: coach/forms.py:221
+msgid "i.e. spelling and grammar is professional quality"
+msgstr ""
+
+#: coach/forms.py:227 coach/templates/coach/email/tip_approval_report.html:23
+msgid "Does the content of the article appear it would be useful?"
+msgstr ""
+
+#: coach/forms.py:228
+msgid "i.e. will be relevant and helpful to students?"
+msgstr ""
+
+#: coach/forms.py:234 coach/templates/coach/email/tip_approval_report.html:24
+msgid "Is the article's advice backed by research?"
+msgstr ""
+
+#: coach/forms.py:239 coach/templates/coach/email/tip_approval_report.html:25
+msgid "Any other comments for the author?"
+msgstr ""
+
+#: coach/models/coach_feedback.py:21
+msgid "Feedback from coach:"
+msgstr ""
+
+#: coach/models/organization.py:70
+msgid "Manages coordinators for their correct Organization"
+msgstr ""
+
+#: coach/models/tag.py:72
+msgid "Can create,read,update,delete"
+msgstr ""
+
+#: coach/models/tip.py:55
+msgid "Tiny"
+msgstr ""
+
+#: coach/models/tip.py:55 coach/organization_serializers.py:113
+msgid "Medium"
+msgstr ""
+
+#: coach/models/tip.py:55
+msgid "Large"
+msgstr ""
+
+#: coach/models/tip.py:173
+msgid "Permission to manage assigned students"
+msgstr ""
+
+#: coach/models/tipencounter.py:31
+msgid "Current"
+msgstr ""
+
+#: coach/models/tipencounter.py:31
+msgid "Bookmarked"
+msgstr ""
+
+#: coach/models/tipencounter.py:31
+msgid "Delayed"
+msgstr ""
+
+#: coach/models/tipencounter.py:31
+msgid "Rejected"
+msgstr ""
+
+#: coach/models/tipencounter.py:31
+msgid "Previously implemented"
+msgstr ""
+
+#: coach/models/tipencounter.py:33
+msgid "Unhelpful"
+msgstr ""
+
+#: coach/models/tipencounter.py:34
+msgid "A little helpful"
+msgstr ""
+
+#: coach/models/tipencounter.py:35 templates/vote_icons.html:9
+msgid "Helpful"
+msgstr ""
+
+#: coach/models/tipencounter.py:36
+msgid "Quite helpful"
+msgstr ""
+
+#: coach/models/tipencounter.py:37
+msgid "Extremely helpful"
+msgstr ""
+
+#: coach/models/tipencounter.py:44
+msgid "No, because..."
+msgstr ""
+
+#: coach/models/tipencounter.py:45
+msgid "No, but I intend to do so"
+msgstr ""
+
+#: coach/models/tipencounter.py:49
+msgid "Too advanced"
+msgstr ""
+
+#: coach/models/tipencounter.py:50
+msgid "Too basic"
+msgstr ""
+
+#: coach/models/tipencounter.py:51
+msgid "Not clear in how to apply it"
+msgstr ""
+
+#: coach/models/tipencounter.py:52
+msgid "Not useful"
+msgstr ""
+
+#: coach/models/tipencounter.py:53
+msgid "Not relevant"
+msgstr ""
+
+#: coach/models/tipencounter.py:54
+msgid "Other..."
+msgstr ""
+
+#: coach/models/tipencounter.py:60
+msgid "How the user has responded to the proffered tip"
+msgstr ""
+
+#: coach/models/tipencounter.py:61
+msgid "Has the student marked this as a favorite?"
+msgstr ""
+
+#: coach/models/tipencounter.py:92
+#, python-format
+msgid "Coaching article: %(title)s"
+msgstr ""
+
+#: coach/organization_serializers.py:111
+msgid "Low"
+msgstr ""
+
+#: coach/organization_serializers.py:115
+#: main/templates/main/check_up_snippet.html:129
+#: main/usecases/student_activity_report.py:19
+msgid "High"
+msgstr ""
+
+#: coach/organization_serializers.py:136
+#, python-brace-format
+msgid "Only studying average of {average} out of expected {hour_goal} hours"
+msgstr ""
+
+#: coach/organization_serializers.py:187
+#, python-brace-format
+msgid "{number} of {total} reports read"
+msgstr ""
+
+#: coach/organization_serializers.py:201
+msgid "Students studying less than what they committed"
+msgstr ""
+
+#: coach/organization_serializers.py:205
+msgid "Coaches not reading reports from their students"
+msgstr ""
+
+#: coach/organization_serializers.py:209
+msgid "Students who have not logged in for a while"
+msgstr ""
+
+#: coach/templates/coach/assign_mentor.html:4
+#, python-format
+msgid "Assign %(mentor_role_title)s to %(student_name)s"
+msgstr ""
+
+#: coach/templates/coach/assign_mentor.html:10
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t\t\tInvite an unregistered user to be %(mentor_role_title)s\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: coach/templates/coach/assign_mentor.html:16
+msgid "or fill in the form below:"
+msgstr ""
+
+#: coach/templates/coach/choose_coaching_language.html:3
+msgctxt ""
+"A coach and student must be able to speak a common language, if no match is "
+"found, perhaps the coach speaks passable Russian but didn't think of listing "
+"it. This is asking the coach if he wants to register another language they "
+"can speak (Russian) to allow the coaching relationship to go ahead"
+msgid "Would you like to add a common language?"
+msgstr ""
+
+#: coach/templates/coach/choose_coaching_language.html:7
+#: coach/templates/coach/list_checkup_reports.html:15
+msgid "Coaching Dashboard"
+msgstr ""
+
+#: coach/templates/coach/choose_coaching_language.html:11
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\tHere is a list of all languages you and %(student_name)s have in "
+"common.\n"
+"\t\t\t"
+msgstr ""
+
+#: coach/templates/coach/choose_coaching_language.html:17
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t%(student_name)s does not share a common language with you. Here is "
+"a list of all languages you and %(student_name)s know.\n"
+"\t\t\t"
+msgstr ""
+
+#: coach/templates/coach/confirm_assign_licence.html:4
+msgid "Assign Licence"
+msgstr ""
+
+#: coach/templates/coach/confirm_assign_licence.html:15
+#, python-format
+msgid ""
+"\n"
+"            Are you sure you would like to assign <b>%(class_type)s Licence</"
+"b> to <b>%(name)s</b> directly without invitation? \n"
+"        "
+msgstr ""
+
+#: coach/templates/coach/confirm_unassign_mentor.html:6
+msgid "Unassign"
+msgstr ""
+
+#: coach/templates/coach/confirm_unassign_mentor.html:8
+#, python-format
+msgid " Unassign %(mentor_role_title)s "
+msgstr ""
+
+#: coach/templates/coach/confirm_unassign_mentor.html:21
+#, python-format
+msgid ""
+"\n"
+"                    Are you sure you do not want to be a "
+"<b>%(mentor_role_title)s</b> for <b>%(student_name)s</b> anymore?\n"
+"                "
+msgstr ""
+
+#: coach/templates/coach/confirm_unassign_mentor.html:27
+#, python-format
+msgid ""
+"\n"
+"                    Are you sure you would like to unassign "
+"<b>%(mentor_name)s</b> as %(mentor_role_title)s for <b>%(student_name)s</"
+"b>?\n"
+"                "
+msgstr ""
+
+#: coach/templates/coach/email/appointed.html:2
+#, python-format
+msgid ""
+"\n"
+"    Dear %(target_name)s,\n"
+"    %(initiator_name)s has appointed you as %(class_type)s for "
+"%(student_name)s.\n"
+msgstr ""
+
+#: coach/templates/coach/email/appointed.html:9
+#: main/templates/main/email/invite.html:21
+#: main/templates/main/email/licence_invitation.html:23
+#: notifications/templates/notifications/assigned_licence_notification.html:9
+#: notifications/templates/notifications/withdrawn_licence_notification.html:13
+#, python-format
+msgid " Message from %(initiator_name)s: "
+msgstr ""
+
+#: coach/templates/coach/email/tip_approval_report.html:2
+#, python-format
+msgid "Dear %(tip_author_username)s,"
+msgstr ""
+
+#: coach/templates/coach/email/tip_approval_report.html:5
+#, python-format
+msgid ""
+"\n"
+"        Your article \"%(tip_title)s\" was reviewed by %(reviewer)s.\n"
+"        It has been approved, you can see the review form below.\n"
+"\n"
+"        Thank you for your contribution.\n"
+"\n"
+"    "
+msgstr ""
+
+#: coach/templates/coach/email/tip_approval_report.html:13
+#, python-format
+msgid ""
+"\n"
+"        Your article \"%(tip_title)s\" was reviewed by %(reviewer)s. \n"
+"        It has not been approved, you can see the review form below. \n"
+"        If you wish to revise the article and re-submit it for review, \n"
+"        you can do so by clicking this link: %(edit_article_link)s.\n"
+"    "
+msgstr ""
+
+#: coach/templates/coach/email/tip_approval_report.html:21
+msgctxt ""
+"Asked when a user uploads a resource to the website. We want to know if the "
+"content of the writing is unique to the author, or infringes copyright"
+msgid "Has the author created a new work?"
+msgstr ""
+
+#: coach/templates/coach/exercises_subtable.html:20
+msgid "No exercises found for today."
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:5
+msgid "Licence View"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:11
+#, python-format
+msgid ""
+"\n"
+"            %(user_type_title)s licence\n"
+"        "
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:21
+msgid "Organization View"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:23 coach/views/organization.py:49
+#: coach/views/organization.py:128
+msgid "Organization"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:26
+msgid "Expiry Date:"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:31
+msgid "Used By - "
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:33
+msgid "View Student"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:36
+msgid "View Coach"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:39
+msgid "View Teacher"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:46
+msgid "Pending Invitation"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:51
+msgid "Invitation sent to"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:52 lang/forms.py:18
+#: main/forms/model_foms.py:185 main/forms/other_forms.py:52
+msgid "Email"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:53
+msgid "Sent By"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:54
+msgid "Cancel Invitation"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:71
+#: coach/templates/coach/licence_details.html:94
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:180
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:150
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:185
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:150
+#: overview/templates/overview/course_profile_update.html:38
+msgid "Cancel"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:89
+msgid "Are you sure?"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:90
+#, python-brace-format
+msgid "Are you sure you want to revoke this licence invitation for {name}?"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:99
+msgid "Successfully disabled the invitation"
+msgstr ""
+
+#: coach/templates/coach/licence_details.html:103
+msgid "Operation cancelled"
+msgstr ""
+
+#: coach/templates/coach/list_checkup_reports.html:4
+msgid "Check-In Reports"
+msgstr ""
+
+#: coach/templates/coach/organization_create_edit.html:20
+msgid "Coordinators"
+msgstr ""
+
+#: coach/templates/coach/organization_create_edit.html:33
+msgid "Coaches"
+msgstr ""
+
+#: coach/templates/coach/organization_create_edit.html:47
+#: coach/templates/coach/tip_create_edit.html:123
+#: exam/templates/exam/translate_entry_form.html:55
+#: grammar/templates/grammar/gram_create_edit.html:118
+#: grammar/templates/grammar/last_quiz_snippet.html:49
+#: grammar/templates/grammar/sentence_edit.html:54
+#: interface_translation/templates/interface_translation/select_translation_language.html:45
+#: main/templates/main/form_snippet.html:16
+#: main/templates/main/list_example_sentences.html:15
+#: main/templates/main/list_example_sentences.html:23
+#: main/templates/main/settings/notifications.html:21
+#: overview/templates/overview/cando_snippet.html:26
+msgid "Save"
+msgstr ""
+
+#: coach/templates/coach/tag_create_edit.html:8
+#: coach/templates/coach/tip_list.html:121
+msgid "Tag list"
+msgstr ""
+
+#: coach/templates/coach/tag_create_edit.html:10
+msgid "Delete tag"
+msgstr ""
+
+#: coach/templates/coach/tip_approval_form.html:43
+msgid "Save Feedback"
+msgstr ""
+
+#: coach/templates/coach/tip_approval_form.html:60
+#: exam/templates/exam/exam_series_list.html:32
+#: grammar/templates/grammar/example_questions.html:49
+#: grammar/templates/grammar/problematic_questions.html:37
+#: grammar/templates/grammar/ratification_eval_snippet.html:5
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:88
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:60
+#: interface_translation/templates/interface_translation/glossary_view.html:22
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:73
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:41
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:71
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:60
+#: interface_translation/templates/interface_translation/translated_glossary_dashboard.html:28
+#: interface_translation/templates/interface_translation/translated_sentences_dashboard.html:27
+#: main/templates/main/list_candos.html:27
+msgid "Edit"
+msgstr ""
+
+#: coach/templates/coach/tip_create_edit.html:18
+msgid "Return to Tip list"
+msgstr ""
+
+#: coach/templates/coach/tip_create_edit.html:20
+msgid "Delete tip"
+msgstr ""
+
+#: coach/templates/coach/tip_create_edit.html:38
+msgid "Suitable languages:"
+msgstr ""
+
+#: coach/templates/coach/tip_create_edit.html:49
+msgid "Is this tip only applicable to certain languages?"
+msgstr ""
+
+#: coach/templates/coach/tip_create_edit.html:78
+msgctxt ""
+"Tags are like the hashtags used in social media - we add tags to coaching "
+"articles to help searching for articles that fit a certain category (e.g. "
+"#for-improving-reading)"
+msgid "Tags"
+msgstr ""
+
+#: coach/templates/coach/tip_create_edit.html:96
+#: coach/templates/coach/tip_detail.html:80
+msgid "This article is part of the series"
+msgstr ""
+
+#: coach/templates/coach/tip_create_edit.html:128
+msgid "Create a new tag"
+msgstr ""
+
+#: coach/templates/coach/tip_detail.html:11
+#: coach/templates/coach/tip_list.html:13
+#, python-format
+msgid "Schedule Tip for %(student_name)s"
+msgstr ""
+
+#: coach/templates/coach/tip_detail.html:13
+msgid "Tip Details"
+msgstr ""
+
+#: coach/templates/coach/tip_detail.html:58
+#: coach/templates/coach/tip_list_item_snippet.html:17
+#: exam/templates/exam/translations_snippet.html:4 main/views/add_content.py:36
+#: main/views/add_content.py:50 templates/navbar.html:37
+#: templates/navbar.html:46
+msgid "Language"
+msgstr ""
+
+#: coach/templates/coach/tip_detail.html:67
+msgctxt ""
+"Uptake as in 'Popularity, number of people who take up this opportunity', "
+"Exposures as in 'The number of times this opportunity has been presented to "
+"people', but we want just one short word for each, doesn't have to be exact"
+msgid "Uptake/Exposures"
+msgstr ""
+
+#: coach/templates/coach/tip_detail.html:96
+#: coach/templates/coach/tip_list.html:90
+msgid "Schedule"
+msgstr ""
+
+#: coach/templates/coach/tip_detail.html:109
+#: interface_translation/templates/interface_translation/generic_reverse_search_template.html:52
+#: interface_translation/templates/interface_translation/pot/reverse_search_pot_strings.html:55
+msgid "View"
+msgstr ""
+
+#: coach/templates/coach/tip_last_review_info_snippet.html:7
+#, python-format
+msgid ""
+"\n"
+"        Last review by <b>%(reviewer)s</b> on <b>%(date)s</b>\n"
+"    "
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:15
+msgid "Tip List"
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:29
+msgid "Tips awaiting approval"
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:40
+msgid "Only show tips with these tags"
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:50
+msgctxt "(Verb) refers to a button that allows you to filter (sort) results"
+msgid "Filter"
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:51
+msgid "Reset Filter"
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:71
+#: coach/templates/coach/tips_waiting_approval_list.html:26
+#: grammar/templates/grammar/gram_create_edit.html:38
+#: grammar/templates/grammar/gram_create_edit.html:41
+#: interface_translation/forms.py:288 interface_translation/forms.py:295
+#: interface_translation/forms.py:332
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_dashboard_snippet.html:8
+#: interface_translation/templates/interface_translation/tip/tip_translation_dashboard_snippet.html:7
+#: main/forms/model_foms.py:160 main/templates/main/list_candos.html:16
+#: overview/templates/overview/cando_snippet.html:42
+msgid "Title"
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:72
+#: grammar/templates/grammar/gram_create_edit.html:46
+#: grammar/templates/grammar/gram_list_snippet.html:27
+#: main/templates/main/list_candos.html:15 main/usecases/course.py:89
+msgid "Stage"
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:73
+msgid "Uptake/Exposures"
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:113
+msgid "No tips found."
+msgstr ""
+
+#: coach/templates/coach/tip_list.html:119
+msgid "Create a new tip"
+msgstr ""
+
+#: coach/templates/coach/tip_list_item_snippet.html:27
+msgid "Approved"
+msgstr ""
+
+#: coach/templates/coach/tip_list_item_snippet.html:29
+msgid "Waiting approval"
+msgstr ""
+
+#: coach/templates/coach/tip_view_snippet.html:20
+#: coach/templates/coach/tips_subtable.html:37
+msgid "Discuss"
+msgstr ""
+
+#: coach/templates/coach/tips_subtable.html:44
+msgid "No tips found for today."
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:6
+msgid "Non-Approved Tip List"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:14
+msgid "Back to Tip List"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:19
+msgid "Article"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:20
+msgid "Last review"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:21
+#: exam/templates/exam/design_exam_form.html:85
+#: exam/templates/exam/list_entries_for_translation.html:19
+#: exam/templates/exam/list_exams.html:23
+#: exam/templates/exam/translations_snippet.html:6
+#: main/templates/main/list_candos.html:18
+msgid "Actions"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:28
+msgid "Author"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:29
+msgid "Last edited"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:34
+msgid "Date"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:35
+msgid "Reviewer"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:40
+msgid "Give feedback"
+msgstr ""
+
+#: coach/templates/coach/tips_waiting_approval_list.html:46
+msgid "All tips have been approved"
+msgstr ""
+
+#: coach/usecases/coach.py:77
+msgid "Manually select coaching article for student"
+msgstr ""
+
+#: coach/usecases/coach.py:81
+msgid "Write a feedback message to the student"
+msgstr ""
+
+#: coach/usecases/coach.py:85
+msgid "Read the student's check-in reports"
+msgstr ""
+
+#: coach/usecases/coach.py:111
+msgid "An article you wrote has been approved"
+msgstr ""
+
+#: coach/usecases/coach.py:113
+msgid "Revisions to an article you wrote have been requested"
+msgstr ""
+
+#: coach/usecases/coach.py:162
+#, python-brace-format
+msgid ""
+"Coaching <b>{student}</b> studying {target_language}<br>Coaching language: "
+"<b>{coaching_language}</b>"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:153
+msgctxt "Question to prepare coach for meeting with student"
+msgid "Did I make any specific recommendations to my student?"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:161
+msgctxt "Question to prepare coach for meeting with student"
+msgid "How could I be most helpful to my student in future coaching sessions?"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:168
+msgctxt "Question to prepare coach for meeting with student"
+msgid ""
+"Do I have any concerns about how they are using their language learning "
+"hours?"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:189
+msgctxt "Question to prepare coach for meeting with student"
+msgid ""
+"How is my student doing in allocating their time to the three pillars? "
+"(formal teaching, personal study, immersion)"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:246
+msgctxt "Question to prepare coach for meeting with student"
+msgid ""
+"The student seems to be experiencing lower motivation, what factors seem to "
+"be affecting their lower motivation?"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:282
+msgctxt "Question to prepare coach for meeting with student"
+msgid ""
+"The student wrote they they need help finding a practice partner. How could "
+"I assist them?"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:301
+msgctxt "Question to prepare coach for meeting with student"
+msgid "What are some issues you notice from their reports?"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:308
+msgctxt "Question to prepare coach for meeting with student"
+msgid ""
+"Are there any issues from their last coaching session that you want to "
+"follow up on?"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:315
+msgctxt "Question to prepare coach for meeting with student"
+msgid "What are your goals for this meeting?"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:322
+msgctxt "Question to prepare coach for meeting with student"
+msgid "How motivated does your student appear to be?"
+msgstr ""
+
+#: coach/usecases/coach_questions.py:329
+msgctxt "Question to prepare coach for meeting with student"
+msgid ""
+"How clear are the student's language aspirations? Is there a clear milestone "
+"of proficiency they are aiming for?"
+msgstr ""
+
+#: coach/usecases/mentor.py:46 coach/views/mentor.py:60
+msgid "You cannot modify students not belonging to your organization"
+msgstr ""
+
+#: coach/usecases/mentor.py:49
+msgid "You cannot modify students not assigned to you"
+msgstr ""
+
+#: coach/usecases/practice_partner.py:42
+msgid "Practice partner"
+msgstr ""
+
+#: coach/usecases/teacher.py:56
+#, python-brace-format
+msgid ""
+"Teaching <b>{student}</b> studying {target_language}<br>Teaching language: "
+"<b>{teaching_language}</b>"
+msgstr ""
+
+#: coach/views/add_content.py:52
+msgid "You must be a coach or content creator to access this page"
+msgstr ""
+
+#: coach/views/add_content.py:172
+msgid "Please select a student"
+msgstr ""
+
+#: coach/views/add_content.py:230
+msgid "Update Coaching Tip"
+msgstr ""
+
+#: coach/views/add_content.py:275
+msgid "Create a new Coaching Tip"
+msgstr ""
+
+#: coach/views/add_content.py:282
+msgid "Tip successfully saved"
+msgstr ""
+
+#: coach/views/add_content.py:345
+msgid "Coaching Tip Approval Form"
+msgstr ""
+
+#: coach/views/add_content.py:365 coach/views/add_content.py:426
+msgid "Tag"
+msgstr ""
+
+#: coach/views/add_content.py:394
+msgid "Update Tag"
+msgstr ""
+
+#: coach/views/add_content.py:399
+msgid "Create a new Tag"
+msgstr ""
+
+#: coach/views/add_content.py:407
+msgid "Tag successfully saved"
+msgstr ""
+
+#: coach/views/api_views.py:133
+msgid "Most Recent Coach Feedback"
+msgstr ""
+
+#: coach/views/api_views.py:224
+msgid "Role invite email failed to "
+msgstr ""
+
+#: coach/views/api_views.py:228 overview/views/token.py:118
+#: overview/views/token.py:192
+msgid "Invitation sent"
+msgstr ""
+
+#: coach/views/coaching_portal.py:102
+#, python-format
+msgid "Comment from %(coach_name)s"
+msgstr ""
+
+#: coach/views/coaching_portal.py:207 coach/views/practice_partner.py:35
+#: coach/views/teaching_portal.py:81
+msgid "You do not have permissions to access this page"
+msgstr ""
+
+#: coach/views/coaching_portal.py:235 coach/views/practice_partner.py:53
+#: coach/views/teaching_portal.py:95
+#, python-brace-format
+msgid "{mentor_role} overview: {mentor_name}"
+msgstr ""
+
+#: coach/views/coaching_portal.py:257
+msgid "Overview of student: {}"
+msgstr ""
+
+#: coach/views/mentor.py:66
+#, python-brace-format
+msgid "{mentor} successfully assigned"
+msgstr ""
+
+#: coach/views/mentor.py:89
+#, python-brace-format
+msgid "{student}'s {mentor} successfully removed"
+msgstr ""
+
+#: coach/views/mentor.py:91
+#, python-brace-format
+msgid "You have successfully removed {student_name} from being your student"
+msgstr ""
+
+#: coach/views/mentor.py:126
+#, python-brace-format
+msgid "No unassigned student found for {mentor_role_title}"
+msgstr ""
+
+#: coach/views/mentor.py:142
+#, python-brace-format
+msgid "No available {mentor_role_title}s found for student"
+msgstr ""
+
+#: coach/views/organization.py:64
+msgid "Create Organization"
+msgstr ""
+
+#: coach/views/organization.py:98
+msgid "Update Organization"
+msgstr ""
+
+#: coach/views/organization.py:156
+msgid "Successfully Unassigned"
+msgstr ""
+
+#: coach/views/organization.py:159
+#, python-brace-format
+msgid ""
+"Unfortunately you can not unassign - {name} is not from this Organization"
+msgstr ""
+
+#: coach/views/organization.py:171 overview/usecases/coordinator.py:99
+msgid "You have no organizations you are permitted to manage"
+msgstr ""
+
+#: coach/views/organization.py:207
+#, python-brace-format
+msgid "Coordinator Dashboard for {name}"
+msgstr ""
+
+#: coach/views/organization.py:286
+msgid "Successfully unassigned coach from all organization students"
+msgstr ""
+
+#: coach/views/organization.py:298
+#, python-brace-format
+msgid "Successfully switched to organization {org_title}"
+msgstr ""
+
+#: coach/views/organization.py:336 overview/views/token.py:160
+#, python-brace-format
+msgid "Successfully re-issued {user_role} invitation for {name} - {email}"
+msgstr ""
+
+#: coach/views/organization.py:341
+#: main/views/api_views/account_api_views.py:270
+msgid "Invalid token"
+msgstr ""
+
+#: coach/views/organization.py:388
+msgid "Organization Groups"
+msgstr ""
+
+#: coach/views/practice_partner.py:77
+msgid "Student successfully assigned"
+msgstr ""
+
+#: coach/wrappers.py:45
+msgid "You are not authorized to oversee this student"
+msgstr ""
+
+#: credit/usecases.py:35
+#, python-brace-format
+msgid "{amount} credits added to your account"
+msgstr ""
+
+#: credit/usecases.py:37
+#, python-brace-format
+msgid "{amount} credits removed from your account"
+msgstr ""
+
+#: exam/forms.py:40 exam/templates/exam/exam_series_list.html:4
+msgid "Exam Series"
+msgstr ""
+
+#: exam/forms.py:61
+msgid ""
+"A similar exam with the same stage and series already "
+"exists.                     You may consider providing a translation for "
+"that existing one"
+msgstr ""
+
+#: exam/forms.py:96
+msgid "A short description of what this paragraph is about"
+msgstr ""
+
+#: exam/forms.py:220
+#, python-format
+msgid "Original text in %(language)s"
+msgstr ""
+
+#: exam/forms.py:223
+#, python-format
+msgid "Translation in %(language)s"
+msgstr ""
+
+#: exam/forms.py:257
+msgid "'type' must be either 'target' or 'native'"
+msgstr ""
+
+#: exam/forms.py:262 exam/forms.py:268
+#, python-format
+msgid "The %(language)s language is already available for this exam"
+msgstr ""
+
+#: exam/forms.py:290 exam/models/series.py:16
+msgid ""
+"A series with a similar name already exists, please find a more original one"
+msgstr ""
+
+#: exam/models/entry.py:48 exam/models/paragraph.py:18
+msgid "Picture"
+msgstr ""
+
+#: exam/models/entry.py:48 exam/models/paragraph.py:17
+msgid "Heading"
+msgstr ""
+
+#: exam/models/entry.py:49 exam/models/paragraph.py:18
+msgid "Instruction"
+msgstr ""
+
+#: exam/models/entry.py:49 exam/models/paragraph.py:19
+msgid "Proctor instruction"
+msgstr ""
+
+#: exam/models/entry.py:50 exam/models/paragraph.py:17 grammar/forms.py:241
+#: grammar/templates/grammar/example_questions.html:11
+#: grammar/templates/grammar/problematic_questions.html:12
+msgid "Question"
+msgstr ""
+
+#: exam/models/entry.py:71
+msgid "You can only have one example entry per paragraph"
+msgstr ""
+
+#: exam/models/entry.py:107
+msgid "Content cannot be empty"
+msgstr ""
+
+#: exam/models/entry.py:136
+msgctxt ""
+"You can use the English 'MediaAsset' in the translation - it refers to a "
+"picture or sound recording object that is being inserted"
+msgid "MediaAsset object was not provided"
+msgstr ""
+
+#: exam/models/exam.py:36
+msgid "A similar exam  with same series and stage already exists"
+msgstr ""
+
+#: exam/models/exam.py:39
+msgid "There are no sufficient entries yet to publish this exam"
+msgstr ""
+
+#: exam/models/paragraph.py:23
+msgid "Only target language"
+msgstr ""
+
+#: exam/models/paragraph.py:24
+msgid "Only native language"
+msgstr ""
+
+#: exam/models/paragraph.py:25
+msgid "Both language"
+msgstr ""
+
+#: exam/templates/exam/add_translation_lang_form.html:6
+#: exam/templates/exam/translation_dashboard.html:74
+msgid "Add a native language"
+msgstr ""
+
+#: exam/templates/exam/add_translation_lang_form.html:8
+#: exam/templates/exam/translation_dashboard.html:80
+msgid "Add a target language"
+msgstr ""
+
+#: exam/templates/exam/assessment_template.html:12
+msgid "Grow Fast Grow Deep Assessment"
+msgstr ""
+
+#: exam/templates/exam/assessment_template.html:32
+msgid "GrowFastGrowDeep Language Assessment"
+msgstr ""
+
+#: exam/templates/exam/assessment_template.html:39
+#, python-format
+msgid "%(native_language)s to %(target_language)s exam"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:4
+msgid "Edit Exam Layout"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:10
+#: exam/templates/exam/translation_dashboard.html:11
+msgid "Go back to Exam list"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:15
+#: exam/templates/exam/list_entries_for_translation.html:62
+#: exam/templates/exam/list_exams.html:71
+#: interface_translation/templates/interface_translation/glossary_translation_dashboard.html:31
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_dashboard_snippet.html:23
+#: interface_translation/templates/interface_translation/pot/potstr_list_snippet.html:18
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:41
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:71
+#: interface_translation/templates/interface_translation/sentence_translation_dashboard.html:29
+#: interface_translation/templates/interface_translation/tip/tip_translation_dashboard_snippet.html:19
+msgid "Translate"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:20
+msgid "Print sample"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:40
+#: grammar/templates/grammar/last_quiz_snippet.html:78
+#: overview/templates/overview/settings/profile_update.html:77
+msgid "Saved"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:49
+msgid "Error"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:66
+#: exam/templates/exam/list_entries_for_translation.html:25
+#: interface_translation/templates/interface_translation/translated_sentences_dashboard.html:20
+msgctxt ""
+"this is a noun, meaning \"class of something\", not the action to write. We "
+"use the word to mean what class something belongs to"
+msgid "Type"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:69
+msgid "Language option"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:73
+#: exam/templates/exam/list_entries_for_translation.html:26
+msgid "Label"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:75
+msgid ""
+"(Optional) The label is description of the paragraph content, it will not "
+"appear in the exam printing"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:82
+msgid "Entries"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:161
+msgid "This paragraph has a sample entry"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:178
+msgid "Add/View Entries"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:183
+msgid "Delete"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:193
+msgid "Add a new Paragraph"
+msgstr ""
+
+#: exam/templates/exam/design_exam_form.html:340
+#: grammar/templates/grammar/gram_create_edit.html:167
+msgid "You have unsaved changes. Are you sure you wish to leave?"
+msgstr ""
+
+#: exam/templates/exam/exam_form.html:7
+msgid "Update Exam"
+msgstr ""
+
+#: exam/templates/exam/exam_form.html:9
+msgid "Create a new Exam"
+msgstr ""
+
+#: exam/templates/exam/exam_series_form.html:6
+msgid "Edit a Series"
+msgstr ""
+
+#: exam/templates/exam/exam_series_form.html:8
+msgid "Create a new Series"
+msgstr ""
+
+#: exam/templates/exam/exam_series_form.html:16
+#: exam/templates/exam/exam_series_list.html:10
+msgid "Go back to Exam List"
+msgstr ""
+
+#: exam/templates/exam/exam_series_list.html:14
+msgid "New exam series"
+msgstr ""
+
+#: exam/templates/exam/exam_series_list.html:20
+#: exam/templates/exam/list_exams.html:34
+msgid "Name"
+msgstr ""
+
+#: exam/templates/exam/exam_series_list.html:21
+msgid "Exams"
+msgstr ""
+
+#: exam/templates/exam/exam_series_list.html:35
+msgid "View Exams"
+msgstr ""
+
+#: exam/templates/exam/generate_exam.html:3
+#: grammar/templates/grammar/list_ratify_questions.html:30
+msgid "Assessment"
+msgstr ""
+
+#: exam/templates/exam/generate_exam.html:9
+msgid ""
+"You can either open the exam assessment, print it yourself and send it to "
+"your student"
+msgstr ""
+
+#: exam/templates/exam/generate_exam.html:16
+msgid "Print the exam: "
+msgstr ""
+
+#: exam/templates/exam/generate_exam.html:22
+msgid ""
+"or <br> Send the exam link to the student, and they will print it themselves"
+msgstr ""
+
+#: exam/templates/exam/generate_exam.html:27
+msgid "Email link to Student for exam: "
+msgstr ""
+
+#: exam/templates/exam/list_entries_for_translation.html:3
+msgid "Entries to translate"
+msgstr ""
+
+#: exam/templates/exam/list_entries_for_translation.html:9
+msgid "Back to Translation Dashboard"
+msgstr ""
+
+#: exam/templates/exam/list_entries_for_translation.html:16
+msgid "Paragraph"
+msgstr ""
+
+#: exam/templates/exam/list_entries_for_translation.html:17
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:30
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:30
+msgid "Original text"
+msgstr ""
+
+#: exam/templates/exam/list_entries_for_translation.html:18
+msgid "Translated text"
+msgstr ""
+
+#: exam/templates/exam/list_entries_for_translation.html:27
+msgid "Original language"
+msgstr ""
+
+#: exam/templates/exam/list_entries_for_translation.html:31
+msgid "Example entry"
+msgstr ""
+
+#: exam/templates/exam/list_entries_for_translation.html:46
+#, python-format
+msgid "The original text is written in %(language)s"
+msgstr ""
+
+#: exam/templates/exam/list_entries_for_translation.html:60
+msgid "Edit translation"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:3 templates/navbar.html:76
+msgid "Exam List"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:10
+msgid "Create new Exam"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:13
+msgid "List Exam Series"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:16
+msgid "Tutorial"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:21
+msgid "Course"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:22
+#: grammar/templates/grammar/cc_stats.html:14
+#: main/usecases/profile_questions.py:344
+msgid "Languages"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:36
+msgid "Series"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:37
+msgid "Status"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:39
+#: exam/templates/exam/translation_dashboard.html:23 exam/usecases/exam.py:230
+msgid "Published"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:39
+#: exam/templates/exam/translation_dashboard.html:24 exam/usecases/exam.py:240
+msgid "Not Published"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:43
+msgid "Native Languages"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:49
+msgid "Target Languages"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:61
+msgid "Edit info"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:66
+msgid "Edit Layout"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:77 exam/usecases/exam.py:231
+msgid "Unpublish"
+msgstr ""
+
+#: exam/templates/exam/list_exams.html:81 exam/usecases/exam.py:241
+msgid "Publish"
+msgstr ""
+
+#: exam/templates/exam/mail/exam_link.html:4
+#: main/templates/main/email/email_change_confirmation.html:4
+#: main/templates/main/email/welcome_email.html:4
+#: notifications/templates/notifications/notification_summary_email.html:3
+#: overview/templates/overview/email/complete_session.html:3
+#: overview/templates/overview/email/missed_four_weeks.html:4
+#: overview/templates/overview/email/missed_two_weeks.html:4
+#: overview/templates/overview/email/ping_inactive_mentor.html:2
+#: overview/templates/overview/email/student_checked_in.html:4
+#: overview/templates/overview/email/subscription_expiry_reminder.html:3
+#, python-format
+msgid "Dear %(first_name)s,"
+msgstr ""
+
+#: exam/templates/exam/mail/exam_link.html:6
+#, python-format
+msgid ""
+"Your coach %(coach_name)s thinks you are ready to sit the %(stage_title)s "
+"exam of the %(course_title)s course."
+msgstr ""
+
+#: exam/templates/exam/mail/exam_link.html:8
+msgid "In order to do so, visit the link below and follow the instructions."
+msgstr ""
+
+#: exam/templates/exam/mail/exam_link.html:12
+#: notifications/templates/notifications/cancelled_booking_mentor_notification.html:9
+#: notifications/templates/notifications/cancelled_booking_student_notification.html:9
+#: notifications/templates/notifications/individual_notification_email.html:11
+#: notifications/templates/notifications/mentor_booking_notification.html:15
+#: notifications/templates/notifications/new_coach_feedback_notification.html:11
+#: notifications/templates/notifications/sp_and_mentor_match_notification.html:28
+#: overview/templates/overview/email/upcoming_booking_notification.html:14
+msgid "The team at GFGD"
+msgstr ""
+
+#: exam/templates/exam/translate_entry_form.html:4
+msgid "Translate an Entry"
+msgstr ""
+
+#: exam/templates/exam/translate_entry_form.html:28
+msgctxt ""
+"A button that when pressed gives extra information to help the translator "
+"translate (i.e. 'Here is help for translating')"
+msgid "Translation help"
+msgstr ""
+
+#: exam/templates/exam/translate_entry_form.html:33
+#, python-format
+msgid "Text in %(translation_language)s"
+msgstr ""
+
+#: exam/templates/exam/translation_dashboard.html:3
+msgid "Translation Dashboard"
+msgstr ""
+
+#: exam/templates/exam/translation_dashboard.html:15
+msgid "Edit exam Layout"
+msgstr ""
+
+#: exam/templates/exam/translation_dashboard.html:62
+msgid "There are enough entries"
+msgstr ""
+
+#: exam/templates/exam/translations_snippet.html:5
+msgid "Translation progression"
+msgstr ""
+
+#: exam/templates/exam/translations_snippet.html:13
+msgid "(Default)"
+msgstr ""
+
+#: exam/templates/exam/translations_snippet.html:32
+msgid "No entry available yet"
+msgstr ""
+
+#: exam/templates/exam/translations_snippet.html:34
+msgid "Sufficient translations are provided"
+msgstr ""
+
+#: exam/templates/exam/translations_snippet.html:40
+msgid "Translate entries"
+msgstr ""
+
+#: exam/templates/exam/translations_snippet.html:47
+#: exam/views/exam_translation.py:65
+msgid "Inactivate translation"
+msgstr ""
+
+#: exam/templates/exam/translations_snippet.html:49
+#: exam/views/exam_translation.py:64
+msgid "Activate translation"
+msgstr ""
+
+#: exam/templates/exam/translations_snippet.html:53
+msgid ""
+"Before you can activate a translation, you first need to publish the exam: "
+"for that, go to Exam List"
+msgstr ""
+
+#: exam/usecases/exam.py:229
+msgid ""
+"The exam is now published, you can now activate the exam translations that "
+"are complete"
+msgstr ""
+
+#: exam/usecases/exam.py:239
+msgid "The exam has been unpublished"
+msgstr ""
+
+#: exam/usecases/exam_instance.py:65
+#, python-format
+msgid ""
+"You are ready to sit for the %(stage_title)s exam of the %(course_title)s"
+msgstr ""
+
+#: exam/usecases/exam_translation.py:17
+msgid "Translation type must be either 'native' or 'target'"
+msgstr ""
+
+#: exam/usecases/exam_translation.py:43
+#, python-format
+msgid "%(language)s is not available for this exam"
+msgstr ""
+
+#: exam/usecases/exam_translation.py:49
+msgid ""
+"This exam is not published yet: publish                     the exam first, "
+"then activate the exam translation"
+msgstr ""
+
+#: exam/usecases/exam_translation.py:52
+msgid ""
+"There are no sufficient entries yet to                     publish this exam"
+msgstr ""
+
+#: exam/usecases/exam_translation.py:55
+#, python-format
+msgid ""
+"There are no sufficient translated                     entries yet in order "
+"to publish this exam in %(language)s"
+msgstr ""
+
+#: exam/usecases/exam_translation.py:101
+#, python-format
+msgid ""
+"The %(language)s language is not yet available                     for this "
+"exam"
+msgstr ""
+
+#: exam/usecases/exam_translation.py:151
+#, python-format
+msgid ""
+"Insufficient translations for Paragraph #%(order)d:                 "
+"%(total_translations)d are available, %(translation_needed)d at least are "
+"needed"
+msgstr ""
+
+#: exam/usecases/paragraph.py:77
+msgid "Entry Language was not provided"
+msgstr ""
+
+#: exam/usecases/paragraph.py:132
+#, python-format
+msgid ""
+"Insufficient entries for Paragraph "
+"#%(order)d:                                  %(entries_count)d are "
+"available, %(entries_needed)d more are needed"
+msgstr ""
+
+#: exam/views/add_content.py:52
+msgid "Exam successfully saved"
+msgstr ""
+
+#: exam/views/add_content.py:131
+msgid "Exam series saved"
+msgstr ""
+
+#: exam/views/assessment.py:56
+msgid "This exam is not available"
+msgstr ""
+
+#: exam/views/assessment.py:122
+#, python-format
+msgid "GrowFastGrowDeep has generated a unique exam for %(student_name)s"
+msgstr ""
+
+#: exam/views/assessment.py:155
+msgid "The exam link was successfully sent to the student"
+msgstr ""
+
+#: exam/views/assessment.py:157
+msgid "Error while trying to send an email to the student"
+msgstr ""
+
+#: exam/views/dashboard.py:85
+msgid ""
+"The exam has been temporarily unpublished because the layout "
+"changed                     to prevent student from printing an incomplete "
+"exam.                     Make sure to add and translate enough entries "
+"before publishing it again"
+msgstr ""
+
+#: exam/views/exam_translation.py:53
+#, python-format
+msgid ""
+"The %(language)s translation is now inactive: it                     is no "
+"longer visible in the coach dashboard"
+msgstr ""
+
+#: exam/views/exam_translation.py:56
+#, python-format
+msgid ""
+"The %(language)s translation is now active: it is                     now "
+"visible in the coach dashboard"
+msgstr ""
+
+#: exam/views/exam_translation.py:70
+msgid ""
+"Error while activating/inactivating this                     translation: "
+msgstr ""
+
+#: exam/views/exam_translation.py:83 exam/views/exam_translation.py:116
+msgid "Ooops... Page not found"
+msgstr ""
+
+#: exam/views/exam_translation.py:95
+msgid "New language successfully added to exam translation languages"
+msgstr ""
+
+#: exam/views/exam_translation.py:127
+msgid "No entries to translate yet."
+msgstr ""
+
+#: exam/views/exam_translation.py:161
+#, python-format
+msgid ""
+"%(language)s is not yet available for this             exam, consider adding "
+"it as another language"
+msgstr ""
+
+#: exam/views/exam_translation.py:166
+msgid "No need to translate that entry"
+msgstr ""
+
+#: google_calendar/usecases/google_calendar.py:194
+msgid "Video conference link"
+msgstr ""
+
+#: grammar/forms.py:23
+msgid "Answer more questions?"
+msgstr ""
+
+#: grammar/forms.py:185
+msgid "Sentence text"
+msgstr ""
+
+#: grammar/forms.py:198 grammar/forms.py:266
+#: interface_translation/templates/interface_translation/course_dashboard.html:96
+#: interface_translation/usecases/analytics.py:166 templates/navbar.html:74
+msgid "Grammars"
+msgstr ""
+
+#: grammar/forms.py:227 grammar/forms.py:243
+#: grammar/templates/grammar/example_questions.html:12
+#: grammar/templates/grammar/problematic_questions.html:13
+msgid "Answer"
+msgstr ""
+
+#: grammar/forms.py:232 grammar/templates/grammar/post_answer_submit.html:38
+msgid "I think my answer is..."
+msgstr ""
+
+#: grammar/forms.py:233 grammar/templates/grammar/post_answer_submit.html:41
+msgctxt "As in 'this is correct'"
+msgid "Correct"
+msgstr ""
+
+#: grammar/forms.py:233 grammar/models/question_attempt.py:21
+#: grammar/templates/grammar/post_answer_submit.html:44
+msgid "Wrong"
+msgstr ""
+
+#: grammar/forms.py:233
+msgid "Report Problem"
+msgstr ""
+
+#: grammar/forms.py:246
+msgid ""
+"to be written in the students' native language, you can provide an "
+"explanation as to why the answer is unusual"
+msgstr ""
+
+#: grammar/models/gram_concept.py:27
+msgid "Linguistical name"
+msgstr ""
+
+#: grammar/models/grammar.py:51
+msgid "Homework exercises for this grammar"
+msgstr ""
+
+#: grammar/models/question_attempt.py:21
+msgctxt "As in \"Correct\""
+msgid "Right"
+msgstr ""
+
+#: grammar/models/question_attempt.py:21
+msgid "There is a problem with the question"
+msgstr ""
+
+#: grammar/templates/grammar/cc_stats.html:5
+#, python-format
+msgid ""
+"\n"
+"    Content creator overview %(cc_name)s    \n"
+"  "
+msgstr ""
+
+#: grammar/templates/grammar/cc_stats.html:22
+msgid "Existing courses"
+msgstr ""
+
+#: grammar/templates/grammar/continue_assessment.html:6
+msgid ""
+"You are making excellent progress today, we could end the quiz here or keep "
+"going and see how far you can progress."
+msgstr ""
+
+#: grammar/templates/grammar/create_dashboard.html:9
+msgid "Add new grammar"
+msgstr ""
+
+#: grammar/templates/grammar/create_dashboard.html:11
+msgid "View Grammar Concepts"
+msgstr ""
+
+#: grammar/templates/grammar/example_questions.html:4
+#, python-format
+msgid "Example questions for<br>%(grammar_title)s"
+msgstr ""
+
+#: grammar/templates/grammar/example_questions.html:14
+#: grammar/templates/grammar/problematic_questions.html:15
+msgctxt ""
+"Cloze Deletion is the technical name for when we blank part of the answer of "
+"a question, so part of the answer is given to the student as a clue. There "
+"is no good translation of this to other languages, so I suggest just use the "
+"English phrase -Cloze Deletion- in your translations."
+msgid ""
+"Blanks for Cloze deletion questions are displayed with the blank parts "
+"underlined"
+msgstr ""
+
+#: grammar/templates/grammar/example_questions.html:18
+#: grammar/templates/grammar/example_sentences.html:12
+#: grammar/templates/grammar/grammar_progress_snippet.html:21
+#: grammar/templates/grammar/grammar_progress_snippet.html:51
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_dashboard_snippet.html:7
+#: overview/templates/overview/review_summary_snippet.html:10
+#: overview/templates/overview/review_summary_snippet.html:40
+msgid "Grammar"
+msgstr ""
+
+#: grammar/templates/grammar/example_questions.html:20
+#, python-format
+msgid ""
+"A green tick indicates this question tests %(grammar_title)s grammar. "
+"Otherwise \n"
+"\t\t\t\t\t  the sentence is considered to also include a harder grammar as "
+"indicated and will be used to test that grammar instead of %(grammar_title)s."
+msgstr ""
+
+#: grammar/templates/grammar/example_questions.html:60
+msgid "Create a matching translation"
+msgstr ""
+
+#: grammar/templates/grammar/example_questions.html:72
+#: grammar/templates/grammar/example_sentences.html:44
+#: grammar/templates/grammar/gram_create_edit.html:123
+#: grammar/templates/grammar/list_available_reverse_questions.html:88
+msgid "Return to Grammar list"
+msgstr ""
+
+#: grammar/templates/grammar/example_questions.html:73
+#: grammar/templates/grammar/gram_create_edit.html:125
+msgid "Add a Question"
+msgstr ""
+
+#: grammar/templates/grammar/example_sentences.html:4
+#, python-format
+msgid "Example sentences for<br>%(grammar_title)s"
+msgstr ""
+
+#: grammar/templates/grammar/example_sentences.html:11
+msgid "Sentence"
+msgstr ""
+
+#: grammar/templates/grammar/example_sentences.html:14
+#, python-format
+msgid ""
+"A green tick indicates this question tests %(grammar_title)s grammar. \n"
+"\t\t\t\t\t\tOtherwise the sentence is considered to also include a harder "
+"grammar as indicated and will be used to test that grammar instead of "
+"%(grammar_title)s.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+
+#: grammar/templates/grammar/example_sentences.html:45
+msgid "Add a Sentence"
+msgstr ""
+
+#: grammar/templates/grammar/gc_example_sentences.html:10
+msgid "No Sentences found."
+msgstr ""
+
+#: grammar/templates/grammar/gc_example_sentences.html:14
+msgid "No Grammars found."
+msgstr ""
+
+#: grammar/templates/grammar/gc_view_modal_snippet.html:4
+msgid "Example sentences"
+msgstr ""
+
+#: grammar/templates/grammar/gram_create_edit.html:17
+msgid "See definitions in other available languages"
+msgstr ""
+
+#: grammar/templates/grammar/gram_create_edit.html:56
+msgid "Grammar concept"
+msgstr ""
+
+#: grammar/templates/grammar/gram_create_edit.html:68
+#: grammar/templates/grammar/gram_list_snippet.html:10
+#: grammar/templates/grammar/gram_list_snippet.html:13
+#: interface_translation/forms.py:289 interface_translation/forms.py:296
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_dashboard_snippet.html:9
+msgid "Explanation"
+msgstr ""
+
+#: grammar/templates/grammar/gram_create_edit.html:84
+#: grammar/templates/grammar/gram_create_edit.html:91
+msgid "Video link"
+msgstr ""
+
+#: grammar/templates/grammar/gram_create_edit.html:100
+msgid "Homework activities"
+msgstr ""
+
+#: grammar/templates/grammar/gram_list_snippet.html:18
+msgid "Example Question"
+msgstr ""
+
+#: grammar/templates/grammar/gramconcept_confirm_delete.html:3
+msgid "Delete Grammar Concept"
+msgstr ""
+
+#: grammar/templates/grammar/gramconcept_confirm_delete.html:8
+#, python-format
+msgid "Are you sure you want to delete \"%(object)s\"?"
+msgstr ""
+
+#: grammar/templates/grammar/gramconcept_confirm_delete.html:9
+#: main/templates/main/model_confirm_delete.html:9
+msgid "Confirm"
+msgstr ""
+
+#: grammar/templates/grammar/gramconcept_create_edit.html:5
+msgid "Create/Update Grammar Concept"
+msgstr ""
+
+#: grammar/templates/grammar/gramconcept_create_edit.html:8
+#, python-format
+msgid "Title and Explanation will be saved in %(language)s"
+msgstr ""
+
+#: grammar/templates/grammar/gramconcept_list.html:3
+msgid "Grammar Concept List"
+msgstr ""
+
+#: grammar/templates/grammar/gramconcept_list.html:39
+msgid "No Grammar Concepts found."
+msgstr ""
+
+#: grammar/templates/grammar/gramconcept_list.html:44
+msgid "Create a new Grammar Concept"
+msgstr ""
+
+#: grammar/templates/grammar/grammar_homework_snippet.html:5
+msgid "The grammars you should focus on studying for the coming week are:"
+msgstr ""
+
+#: grammar/templates/grammar/grammar_homework_snippet.html:18
+msgid "You are making good progress. Good work."
+msgstr ""
+
+#: grammar/templates/grammar/grammar_progress_snippet.html:9
+msgid ""
+"Examine the grammars for each level and indicate your level of confidence in "
+"each without the need of a quiz."
+msgstr ""
+
+#: grammar/templates/grammar/grammar_progress_snippet.html:20
+#: grammar/templates/grammar/grammar_progress_snippet.html:38
+msgid "Progress"
+msgstr ""
+
+#: grammar/templates/grammar/grammar_progress_snippet.html:23
+#: grammar/templates/grammar/grammar_progress_snippet.html:60
+msgid "Mastery"
+msgstr ""
+
+#: grammar/templates/grammar/grammar_progress_snippet.html:26
+msgid "Consider how well you have internalised each of the following grammars:"
+msgstr ""
+
+#: grammar/templates/grammar/grammar_progress_snippet.html:27
+msgid "I don't know it"
+msgstr ""
+
+#: grammar/templates/grammar/grammar_progress_snippet.html:28
+msgid "I understand it, but I never use it"
+msgstr ""
+
+#: grammar/templates/grammar/grammar_progress_snippet.html:29
+msgid "I can use it if I try"
+msgstr ""
+
+#: grammar/templates/grammar/grammar_progress_snippet.html:30
+msgid "I naturally use it without effort"
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:8
+msgctxt "as in 'These are Questions that you answered incorrectly'"
+msgid "Questions answered incorrectly"
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:9
+msgid "Questions you reported as problematic"
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:10
+msgid "Questions you marked as correct"
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:14
+#: grammar/templates/grammar/last_quiz_snippet.html:27
+msgid "Official Question and Answer"
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:15
+#: grammar/templates/grammar/last_quiz_snippet.html:34
+msgid "Your answer"
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:16
+#: grammar/templates/grammar/last_quiz_snippet.html:41
+msgid "Your feedback"
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:18
+msgid ""
+"A place to submit your comment if you think there is an error in the question"
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:50
+msgid "Mark as correct"
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:81
+msgid ""
+"Are you sure?  This will create a comment to be reviewed by a content "
+"creator."
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:84
+msgid "Submission succeeded."
+msgstr ""
+
+#: grammar/templates/grammar/last_quiz_snippet.html:86
+msgid "Submission failed."
+msgstr ""
+
+#: grammar/templates/grammar/list_available_reverse_questions.html:4
+#, python-format
+msgid ""
+"Questions from the <br>\n"
+"                %(reverse_course_title)s course <br>\n"
+"                that can be re-used"
+msgstr ""
+
+#: grammar/templates/grammar/list_available_reverse_questions.html:18
+msgid "Suggested Grammars"
+msgstr ""
+
+#: grammar/templates/grammar/list_available_reverse_questions.html:19
+msgid "Suggested Grammar Concepts"
+msgstr ""
+
+#: grammar/templates/grammar/list_available_reverse_questions.html:34
+msgid "Reverse"
+msgstr ""
+
+#: grammar/templates/grammar/list_available_reverse_questions.html:55
+msgid "Add"
+msgstr ""
+
+#: grammar/templates/grammar/list_available_reverse_questions.html:72
+msgid "Create"
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:4
+msgid "Check translations"
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:8
+msgid "Ratification Rejected Questions"
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:12
+msgid ""
+"Please check the correctness of the following translations. If you think a "
+"translation is\n"
+"    correct, select 'Approve', otherwise select 'Reject'. If you reject you "
+"can also provide a \n"
+"    corrected translation."
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:17
+msgid ""
+"Please remember, we are only asking you as a native speaker to check the "
+"<b>Translation</b>, \n"
+"    that it is a faithful representation of the Original."
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:28
+#: interface_translation/forms.py:589
+msgid "Original"
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:29
+#: interface_translation/forms.py:595
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:136
+#: interface_translation/templates/interface_translation/generic_reverse_search_template.html:40
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:138
+#: interface_translation/templates/interface_translation/glossary_view.html:15
+#: interface_translation/templates/interface_translation/pot/reverse_search_pot_strings.html:38
+#: interface_translation/templates/interface_translation/pot/search_pot_strings.html:38
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:138
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:88
+#: main/templates/main/list_example_sentences.html:14
+msgid "Translation"
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:31
+msgid "Corrected translation"
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:44
+#: interface_translation/templates/interface_translation/translate_questions.html:126
+#: interface_translation/templates/interface_translation/translate_questions.html:275
+msgid "Hint"
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:66
+msgid "Write your translation text here"
+msgstr ""
+
+#: grammar/templates/grammar/list_ratify_questions.html:74
+#: grammar/templates/grammar/post_answer_submit.html:58
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:183
+#: interface_translation/templates/interface_translation/external_translations/item_translation_form.html:30
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:131
+#: interface_translation/templates/interface_translation/translate_questions.html:188
+#: main/templates/main/check_up_snippet.html:152
+#: main/templates/main/list_example_sentences.html:41
+#: main/templates/main/settings/about_me.html:24 overview/views/token.py:126
+msgid "Submit"
+msgstr ""
+
+#: grammar/templates/grammar/model_form.html:3
+#, python-format
+msgid "Create/Update %(model_name)s"
+msgstr ""
+
+#: grammar/templates/grammar/model_form.html:9
+msgid "Content Creation Dashboard"
+msgstr ""
+
+#: grammar/templates/grammar/post_answer_submit.html:5
+msgid "Official Answer"
+msgstr ""
+
+#: grammar/templates/grammar/post_answer_submit.html:34
+#: main/templates/main/continue_button_form_snippet.html:16
+msgid "Continue"
+msgstr ""
+
+#: grammar/templates/grammar/post_answer_submit.html:47
+msgid "Report problem"
+msgstr ""
+
+#: grammar/templates/grammar/post_answer_submit.html:54
+msgid ""
+"Please describe the problem with this question: <i>e.g. \"There is a "
+"misspelling in the question\"</i>"
+msgstr ""
+
+#: grammar/templates/grammar/problematic_questions.html:4
+msgid "Problematic Questions"
+msgstr ""
+
+#: grammar/templates/grammar/problematic_questions.html:11
+msgctxt ""
+"As in 'This is a score showing how seriously this item is problematic'"
+msgid "Problem Score"
+msgstr ""
+
+#: grammar/templates/grammar/ratification_eval_snippet.html:11
+#: grammar/templates/grammar/ratification_eval_snippet.html:26
+msgid "Front:"
+msgstr ""
+
+#: grammar/templates/grammar/ratification_eval_snippet.html:19
+#: grammar/templates/grammar/ratification_eval_snippet.html:34
+msgid "Apply Update"
+msgstr ""
+
+#: grammar/templates/grammar/sentence_edit.html:5
+msgid "Sentence Edit"
+msgstr ""
+
+#: grammar/templates/grammar/sentence_edit.html:12
+#, python-format
+msgid "%(sentence_language)s sentence:"
+msgstr ""
+
+#: grammar/templates/grammar/sentence_edit.html:30
+msgid "Featured Grammars"
+msgstr ""
+
+#: grammar/templates/grammar/sentence_edit.html:31
+#, python-format
+msgid ""
+"Select a stage and check grammars related to the %(sentence_language)s "
+"sentence"
+msgstr ""
+
+#: grammar/templates/grammar/sentence_edit.html:34
+msgid "No matching grammar?"
+msgstr ""
+
+#: grammar/templates/grammar/sentence_edit.html:39
+msgid "Questions featuring this Sentence"
+msgstr ""
+
+#: grammar/templates/grammar/view_ratifications.html:3
+msgid "Questions being checked"
+msgstr ""
+
+#: grammar/templates/grammar/view_ratifications.html:9
+msgid "Rejections"
+msgstr ""
+
+#: grammar/templates/grammar/view_ratifications.html:14
+msgid "Mixed"
+msgstr ""
+
+#: grammar/templates/grammar/view_ratifications.html:19
+msgid "Approvals"
+msgstr ""
+
+#: grammar/usecases/problematic_questions.py:114
+msgid "Question on the front was rejected by translators"
+msgstr ""
+
+#: grammar/usecases/problematic_questions.py:116
+msgid "Answer on the back was rejected by translators"
+msgstr ""
+
+#: grammar/usecases/problematic_questions.py:118
+msgid "Question rejected - reason unknown"
+msgstr ""
+
+#: grammar/usecases/problematic_questions.py:123
+msgid "Mixed assessments by translators"
+msgstr ""
+
+#: grammar/usecases/question_entry_group.py:39
+msgid "That answer is correct"
+msgstr ""
+
+#: grammar/usecases/question_entry_group.py:40
+msgid "That answer is incorrect"
+msgstr ""
+
+#: grammar/usecases/question_entry_group.py:43
+msgid "That answer is probably correct. What do you think?"
+msgstr ""
+
+#: grammar/usecases/question_entry_group.py:44
+msgid "That answer may be incorrect. What do you think?"
+msgstr ""
+
+#: grammar/usecases/question_entry_group.py:45
+msgid "There may be a problem with this question. What do you think?"
+msgstr ""
+
+#: grammar/usecases/quiz.py:301
+#, python-format
+msgid "You have passed grammar %(grammar_name)s"
+msgstr ""
+
+#: grammar/usecases/quiz.py:352
+msgid ""
+"Since you have newly registered to this course, we will start you off with a "
+"quick initial assessment. If you can't answer any questions, just click Skip."
+msgstr ""
+
+#: grammar/usecases/quiz.py:354
+msgid ""
+"Let's do a comprehensive assessment to see which stage is best suited to "
+"you. If you can't answer any questions, just click Skip."
+msgstr ""
+
+#: grammar/usecases/quiz.py:396
+#, python-format
+msgid ""
+"Your initial assessment has been completed. You have reached %(stage_name)s."
+msgstr ""
+
+#: grammar/usecases/quiz.py:417
+msgid ""
+"Let's do a Grammar Quiz and see how you have been progressing in your "
+"learning recently."
+msgstr ""
+
+#: grammar/usecases/quiz.py:428
+#, python-format
+msgid "Congratulations - you have graduated to %(stage_name)s"
+msgstr ""
+
+#: grammar/usecases/quiz.py:432
+msgid ""
+"Congratulations - you have graduated from all available stages for this "
+"course"
+msgstr ""
+
+#: grammar/views/add_content.py:145
+msgid "Create New Grammar"
+msgstr ""
+
+#: grammar/views/add_content.py:154
+msgid "Update Grammar"
+msgstr ""
+
+#: grammar/views/add_content.py:203 grammar/views/add_content.py:259
+msgid "Grammar successfully saved"
+msgstr ""
+
+#: grammar/views/add_content.py:415 grammar/views/add_content.py:455
+#: grammar/views/add_content.py:467 grammar/views/add_content.py:523
+msgid "Create New Question"
+msgstr ""
+
+#: grammar/views/add_content.py:431
+msgid "Question successfully saved"
+msgstr ""
+
+#: grammar/views/add_content.py:482
+msgid "Update Question"
+msgstr ""
+
+#: grammar/views/add_content.py:506 main/views/main.py:140
+msgid "You are not authorized to access this course"
+msgstr ""
+
+#: grammar/views/add_content.py:513
+msgid "You have been changed to another course so you can view this question."
+msgstr ""
+
+#: grammar/views/add_content.py:558
+msgid "Sentence successfully saved"
+msgstr ""
+
+#: grammar/views/add_content.py:649
+msgid "<Click to create a matching translation>"
+msgstr ""
+
+#: grammar/views/add_content.py:685
+msgid "Update Grammar Concept"
+msgstr ""
+
+#: grammar/views/add_content.py:694
+msgid "Create Grammar Concept"
+msgstr ""
+
+#: grammar/views/add_content.py:700
+msgid "Grammar Concept successfully saved"
+msgstr ""
+
+#: grammar/views/add_content.py:721 grammar/views/add_content.py:736
+#: grammar/views/add_content.py:753
+msgid "Grammar Concept"
+msgstr ""
+
+#: grammar/views/add_content.py:959
+msgid "You cannot add a question without first assigning some grammars"
+msgstr ""
+
+#: interface_translation/forms.py:290
+msgid "Homework exercises"
+msgstr ""
+
+#: interface_translation/forms.py:333
+#: interface_translation/templates/interface_translation/glossary_translation_dashboard.html:23
+#: interface_translation/templates/interface_translation/glossary_view.html:14
+#: interface_translation/templates/interface_translation/pot/potstr_list_snippet.html:7
+#: interface_translation/templates/interface_translation/sentence_translation_dashboard.html:20
+#: interface_translation/templates/interface_translation/tip/tip_translation_dashboard_snippet.html:8
+#: interface_translation/templates/interface_translation/translated_sentences_dashboard.html:19
+msgid "Text"
+msgstr ""
+
+#: interface_translation/forms.py:334
+msgid "Application Text"
+msgstr ""
+
+#: interface_translation/forms.py:335
+msgid "Discussion Question"
+msgstr ""
+
+#: interface_translation/forms.py:369 interface_translation/forms.py:431
+msgid "Your submission is empty"
+msgstr ""
+
+#: interface_translation/forms.py:384 interface_translation/forms.py:465
+msgid "Sorry, we were unable to save your submission"
+msgstr ""
+
+#: interface_translation/forms.py:447
+#, python-format
+msgid ""
+"Some required placeholders are missing in the translation: %(placeholders)s"
+msgstr ""
+
+#: interface_translation/forms.py:502
+msgid "The field 'Hint' is required"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/back_to_dashboard_button_snippet.html:5
+msgid "Back to Course Dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/change_translation_language_snippet.html:10
+msgid "Change translation language"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:7
+#: interface_translation/templates/interface_translation/target_health.html:6
+#: templates/navbar.html:68
+msgid "Course translation progress"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:24
+msgid "Modify Glossary"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:33
+#, python-format
+msgid ""
+"\n"
+"        Translation progress for %(native_language)s to %(target_language)s "
+"course\n"
+"      "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:39
+msgid "General progress"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:47
+#: interface_translation/templates/interface_translation/glossary_translation_dashboard.html:14
+#: interface_translation/templates/interface_translation/glossary_view.html:4
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:27
+#: interface_translation/templates/interface_translation/tip/tip_translation_form.html:19
+#: interface_translation/usecases/analytics.py:321
+msgid "Glossary"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:59
+msgid "POT strings"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:72
+#: templates/navbar.html:73
+msgid "Questions"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:84
+msgid "Coaching articles"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:108
+#: interface_translation/usecases/analytics.py:289
+msgid "Other sentences"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:121
+#: interface_translation/usecases/analytics.py:353
+msgid "Video links"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/course_dashboard.html:134
+#, python-format
+msgid ""
+"\n"
+"          Translation progress for %(project_name)s to %(native_language)s\n"
+"        "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:31
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:31
+#, python-format
+msgid "Original %(original_language)s entry"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:43
+msgid ""
+"You already selected a translation for this text. Would you like to create a "
+"new Submission?"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:46
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:71
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:84
+#: interface_translation/templates/interface_translation/pot/search_pot_strings.html:56
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:71
+msgid "Create submission"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:53
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:77
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:90
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:77
+msgid "The translation you selected"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:63
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:86
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:99
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:86
+msgid ""
+"You skipped the translation for this text. You can either create a new "
+"submission or vote any of the past translations"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:68
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:91
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:104
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:91
+msgid "Make a submission"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:76
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:48
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:59
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:48
+msgid "You already submitted a translation"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:81
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:53
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:64
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:53
+msgid "Your translation submission"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:96
+msgid ""
+"\n"
+"                        Please consider the below existing submissions, "
+"click the submission that is most correct in your opinion, or submit a more "
+"appropriate submission below.              \n"
+"                      "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:100
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:105
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:118
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:105
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:46
+msgid "Previous submissions"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:112
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:117
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:130
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:117
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:58
+msgid "Select"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:120
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:125
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:138
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:125
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:65
+msgid "Improve"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:127
+msgid "No existing submission found. Be the first to submit a translation"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:140
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:92
+msgid ""
+"The text input has been pre-populated with the original text to assist you "
+"in the task of translation."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:141
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:93
+msgid "Try to preserve formatting (bullet points, tables, formatting...)"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:142
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:94
+#, python-format
+msgid ""
+"You can translate line-by-line, just replace the %(original_language)s text "
+"with the %(translation_language)s translation as you go."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/edit_model_field_translation_snippet.html:196
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:147
+msgid "Translation completed."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/external_translations/item_translation_form.html:6
+#, python-format
+msgid " Translate %(object_name)s to %(language)s "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/external_translations/item_translation_form.html:11
+msgid "Back to Dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/external_translations/translation_item_list.html:8
+msgid "Strings to translate"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/generic_reverse_search_template.html:31
+#: interface_translation/templates/interface_translation/pot/reverse_search_pot_strings.html:28
+#: interface_translation/templates/interface_translation/pot/search_pot_strings.html:29
+msgid "Matching results"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_dashboard.html:4
+msgid "Translate Glossary entries"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_dashboard.html:11
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_dashboard.html:18
+#: interface_translation/templates/interface_translation/pot/pot_translation_dashboard.html:18
+#: interface_translation/templates/interface_translation/pot/search_pot_strings.html:19
+#: interface_translation/templates/interface_translation/sentence_translation_dashboard.html:11
+#: interface_translation/templates/interface_translation/tip/tips_to_be_translated_list.html:15
+msgid "Your completed translations"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_dashboard.html:18
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_dashboard.html:21
+#: interface_translation/templates/interface_translation/pot/pot_translation_dashboard.html:27
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:28
+#: interface_translation/templates/interface_translation/sentence_translation_dashboard.html:15
+#: interface_translation/templates/interface_translation/tip/tips_to_be_translated_list.html:18
+msgid "Total remaining entries"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_dashboard.html:24
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:38
+#: interface_translation/templates/interface_translation/pot/potstr_list_snippet.html:8
+#: interface_translation/templates/interface_translation/translated_glossary_dashboard.html:20
+msgid "Context"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:8
+msgid "Translate Glossary Entry"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:17
+#: interface_translation/templates/interface_translation/translated_glossary_dashboard.html:11
+msgid "Glossary translation dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:68
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:81
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:68
+msgid ""
+"You already selected a translation for this text. Would you like to Create a "
+"new Submission?"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:101
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:114
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:101
+msgid ""
+"\n"
+"            Consider the below existing submissions, please click the "
+"submission that is most correct in your opinion, or submit a more "
+"appropriate submission below.\n"
+"          "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:157
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:192
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:157
+msgid "Save & return to dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:163
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:197
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:163
+msgid "Save & translate next"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/glossary_translation_form.html:166
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:204
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:166
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:134
+#: interface_translation/templates/interface_translation/translate_questions.html:190
+msgid "Skip"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_dashboard.html:7
+#, python-format
+msgid ""
+"\n"
+"    Translate grammar definitions from %(original_language)s into "
+"%(translation_language)s\n"
+"  "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_dashboard_snippet.html:11
+msgid "Homework exercise"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_dashboard_snippet.html:25
+#: interface_translation/templates/interface_translation/pot/potstr_list_snippet.html:20
+#: interface_translation/templates/interface_translation/tip/tip_translation_dashboard_snippet.html:21
+msgid "View/Edit"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_form.html:5
+#, python-format
+msgid ""
+"\n"
+"    Translate grammar descriptions from %(original_language)s to "
+"%(translation_language)s\n"
+"  "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_form.html:19
+msgid "Grammar translation dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_form.html:22
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:23
+#: interface_translation/templates/interface_translation/tip/tip_translation_form.html:15
+#: interface_translation/templates/interface_translation/translate_questions.html:22
+msgid "Instructions"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/grammar/grammar_translation_form.html:45
+#: interface_translation/templates/interface_translation/tip/tip_translation_form.html:44
+#: interface_translation/templates/interface_translation/translate_questions.html:169
+#: interface_translation/templates/interface_translation/translate_questions.html:191
+#: interface_translation/templates/interface_translation/translate_questions.html:192
+#: main/templates/main/pagination_nav_snippet.html:38
+#: main/templates/main/pagination_nav_snippet.html:40
+#: overview/views/token.py:95
+msgid "Next"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/grammar/previously_translated_grammars_list.html:5
+#, python-format
+msgid ""
+"\n"
+"    Grammar definitions that you previously translated from "
+"%(original_language)s to %(translation_language)s\n"
+"  "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/grammar/previously_translated_grammars_list.html:16
+msgid "Grammars to be translated"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:8
+#: interface_translation/templates/interface_translation/pot/pot_translation_dashboard.html:5
+msgctxt ""
+"There is no translation for \"POT\", so just use \"POT\" in translation"
+msgid "Translate POT Strings"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:20
+msgctxt ""
+"There is no translation for \"POT\", so just use \"POT\" in translation"
+msgid "POTString translation dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/pot_translate_form.html:172
+msgid ""
+"Make sure your translation contains the following placeholders. You can "
+"click them to include automatically"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/pot_translation_dashboard.html:21
+#: interface_translation/templates/interface_translation/pot/translated_potstr_list.html:26
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:15
+msgid "View skipped"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/pot_translation_dashboard.html:24
+msgid "View untranslated"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/potstr_list_snippet.html:9
+msgid "Occurrences"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/potstr_list_snippet.html:29
+msgid "No POTString found"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/search_pot_strings.html:7
+msgid "Search POT Strings"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/search_pot_strings.html:28
+msgid "You searched"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/search_pot_strings.html:53
+msgid "Edit previous submission"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/translated_potstr_list.html:8
+msgctxt "There is no translation for 'POT', so just use 'POT' in translation"
+msgid "Translate POT Strings"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/translated_potstr_list.html:22
+msgctxt "There is no translation for 'POT', so just use 'POT' in translation"
+msgid "POTString translation dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/pot/translated_potstr_list.html:34
+msgid "Results found"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:5
+#, python-format
+msgid ""
+"\n"
+"    Translate questions from %(original_language)s to "
+"%(translation_language)s\n"
+"  "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:19
+msgid "View translated"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:23
+msgid "View required translations"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:75
+msgid ""
+"[[ entry.questions_count ]] questions related to <b>[[ entry.title ]]</b>"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/questions_translation_dashboard.html:82
+msgid "No items found"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/select_translation_language.html:3
+msgid "Select translation language"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/select_translation_language.html:12
+msgid "I want to translate for the target language course"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/select_translation_language.html:27
+#, python-format
+msgid "I want to translate from %(original_language)s to "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/sentence_translation_dashboard.html:4
+msgid "Translate sentences"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/sentence_translation_dashboard.html:21
+msgctxt ""
+"this is a noun, meaning 'class of something', not the action to write. We "
+"use the word to mean what class something belongs to"
+msgid "Type"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/sentence_translation_dashboard.html:22
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:38
+msgid "Comment"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:8
+msgid "Translate Sentence"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/sentence_translation_form.html:17
+msgid "Other sentences translation dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/target_health.html:45
+msgid "Show more"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/tip/previously_translated_tips_list.html:5
+#, python-format
+msgid ""
+"\n"
+"  Coaching articles you previously translated from %(original_language)s to "
+"%(translation_language)s\n"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/tip/previously_translated_tips_list.html:17
+msgid "Tips to be translated"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/tip/tip_translation_dashboard_snippet.html:6
+msgid "Article title"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/tip/tip_translation_dashboard_snippet.html:9
+msgid "Application text"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/tip/tip_translation_dashboard_snippet.html:10
+msgid "Discussion question"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/tip/tip_translation_dashboard_snippet.html:65
+msgid "Nothing to show yet"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/tip/tip_translation_form.html:4
+#, python-format
+msgid ""
+"\n"
+"    Translate Coaching Tip from %(original_language)s to "
+"%(translation_language)s\n"
+"  "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/tip/tip_translation_form.html:12
+msgid "Tip translation dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/tip/tips_to_be_translated_list.html:5
+#, python-format
+msgid ""
+"\n"
+"  Translate %(original_language)s coaching articles into "
+"%(translation_language)s\n"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:42
+msgid ""
+"\n"
+"                          Please consider the below existing submissions, "
+"please click the submission that is most correct in your opinion, or submit "
+"a more appropriate submission below.              \n"
+"                        "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:82
+msgid "Or submit a better translation"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_model_field_snippet.html:84
+msgid "Be the first to submit a translation"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:7
+msgid "Translate questions"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:17
+msgid "Questions you formerly skipped"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:18
+msgid "Questions you formerly translated"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:39
+msgid "Original question"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:44
+msgid ""
+"By clicking on any of the below options, it will expand and you can confirm "
+"your selection with the Select button."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:48
+msgid "Please consider one of these previous translations..."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:61
+msgid "Dismiss suggestions"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:62
+msgid "Select this translation"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:63
+msgid "Improve this translation"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:64
+msgid "This is your currently selected translation."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:65
+msgid "...or provide a translation of your own."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:69
+#, python-format
+msgid ""
+"\n"
+"              Please provide a %(target_language)s to "
+"%(translation_language)s translation <br>\n"
+"            "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:76
+msgid ""
+"Use the switch button below to select the sentence you will use as question "
+"and answer fields"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:91
+#: interface_translation/templates/interface_translation/translate_questions.html:237
+msgid "Front"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:111
+#: interface_translation/templates/interface_translation/translate_questions.html:252
+msgid "Back"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:145
+#: interface_translation/templates/interface_translation/translate_questions.html:285
+msgctxt ""
+"Cloze Deletion is the technical name for when we blank part of the answer of "
+"a question, so part of the answer is given to the student as a clue. There "
+"is no good translation of this to other languages, so I suggest just use the "
+"English phrase -Cloze Deletion- in your translations."
+msgid "Cloze deletion"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:155
+msgctxt ""
+"Cloze Deletion is the technical name for when we blank part of the answer of "
+"a question, so part of the answer is given to the student as a clue. There "
+"is no good translation of this to other languages, so I suggest just use the "
+"English phrase -Cloze Deletion- in your translations."
+msgid ""
+"To convert this question into a Cloze Deletion, highlight a portion of the "
+"sentence above"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:165
+msgid "No more questions"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:176
+msgid "Load more"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:177
+msgid "Go back to start"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:200
+msgid "Back to question translation dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translate_questions.html:295
+msgctxt ""
+"Cloze Deletion is the technical name for when we blank part of the answer of "
+"a question, so part of the answer is given to the student as a clue. There "
+"is no good translation of this to other languages, so I suggest just use the "
+"English phrase -Cloze Deletion- in your translations."
+msgid "No cloze deletion in the original question"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translated_glossary_dashboard.html:4
+msgid "Translated glossary entries"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translated_glossary_dashboard.html:19
+msgid "Phrase"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translated_glossary_dashboard.html:21
+msgid "User entry"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translated_sentences_dashboard.html:4
+msgid "Translated sentences"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translated_sentences_dashboard.html:11
+msgid "Sentence translation dashboard"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translation_dashboard_script.html:26
+msgid "You have already submitted or selected a translation."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translation_dashboard_script.html:28
+msgid "You have not yet provided a translation."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translation_dashboard_script.html:29
+msgid "No translation is needed."
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_activity.html:4
+#, python-format
+msgid ""
+"\n"
+"    Translator activity for translation to %(translation_language)s\n"
+"  "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_stats.html:5
+#, python-format
+msgid ""
+"\n"
+"    Translator overview %(translator_name)s    \n"
+"  "
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_stats.html:14
+msgid "Native languages"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_stats.html:21
+msgid "Translation language"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_stats.html:26
+msgid "Contribution"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_stats.html:28
+msgid "Passes"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_stats.html:31
+msgid "Selects"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_stats.html:34
+msgid "Submits"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_stats.html:37
+msgid "Submit count"
+msgstr ""
+
+#: interface_translation/templates/interface_translation/translator_stats.html:40
+msgid "Select count"
+msgstr ""
+
+#: interface_translation/templatetags/translator_tags.py:15
+#: main/templatetags/custom_tags.py:132
+#, python-format
+msgid ""
+"You are currently translating from <b>%(original_lang)s</b> to "
+"<b>%(translation_lang)s</b>"
+msgstr ""
+
+#: interface_translation/usecases/analytics.py:92
+msgid "No translation required"
+msgstr ""
+
+#: interface_translation/usecases/analytics.py:116
+msgid "No entries found"
+msgstr ""
+
+#: interface_translation/usecases/analytics.py:144
+msgid "POT strings are originally written in English"
+msgstr ""
+
+#: interface_translation/usecases/analytics.py:273
+msgid "Coaching Articles"
+msgstr ""
+
+#: interface_translation/usecases/external_translation.py:116
+#, python-brace-format
+msgid ""
+"Human translated: {human_translation_progress}%, AI translated: "
+"{ai_translation_progress}% out of {total}"
+msgstr ""
+
+#: interface_translation/usecases/other_sentences.py:15
+msgid "Refers to the name of the language, not the nationality."
+msgstr ""
+
+#: interface_translation/views/coaching_articles.py:118
+msgid "No more Tip to translate"
+msgstr ""
+
+#: interface_translation/views/common.py:37
+msgid ""
+"You do not have enough fluent or competent languages set yet.                "
+"Please edit your profile before continuing"
+msgstr ""
+
+#: interface_translation/views/common.py:82
+#, python-format
+msgid ""
+"You are now translating from %(native_language)s to %(translation_language)s "
+"for the %(target_language)s language course"
+msgstr ""
+
+#: interface_translation/views/common.py:88
+#, python-format
+msgid "You are now translating from %(original)s to %(target)s"
+msgstr ""
+
+#: interface_translation/views/common.py:93
+msgid "You are not authorized to translate to that language"
+msgstr ""
+
+#: interface_translation/views/external_translations.py:64
+msgid "Translation saved successfully"
+msgstr ""
+
+#: interface_translation/views/grammars.py:87
+msgid "No more Grammar to translate"
+msgstr ""
+
+#: interface_translation/views/pot_strings.py:92
+msgid "Untranslated POTStrings"
+msgstr ""
+
+#: interface_translation/views/pot_strings.py:106
+msgid "The entry has been updated"
+msgstr ""
+
+#: interface_translation/views/questions.py:173
+msgid "No more questions to translate"
+msgstr ""
+
+#: interface_translation/views/questions.py:182
+msgid ""
+"You tried to make a translation with same native and target languages. "
+"Please select a different translation language"
+msgstr ""
+
+#: lang/forms.py:54
+msgid "Username or email"
+msgstr ""
+
+#: lang/forms.py:76
+msgid ""
+"You have made too many recent attempts to log in, please wait before trying "
+"again"
+msgstr ""
+
+#: lang/settings.py:426
+msgctxt "The language"
+msgid "English"
+msgstr ""
+
+#: lang/settings.py:427
+msgctxt "The language"
+msgid "Indonesian"
+msgstr ""
+
+#: lang/settings.py:430
+msgctxt "The language"
+msgid "Spanish"
+msgstr ""
+
+#: lang/settings.py:432
+msgctxt "The language"
+msgid "Turkish"
+msgstr ""
+
+#: lang/settings.py:433
+msgctxt "The language"
+msgid "Arabic"
+msgstr ""
+
+#: lang/settings.py:434
+msgctxt "The language"
+msgid "Portuguese"
+msgstr ""
+
+#: lang/settings.py:437
+msgid "Russian"
+msgstr ""
+
+#: lang/views.py:33
+#, python-brace-format
+msgid "Your current role of {current_role} is only supported by the app"
+msgstr ""
+
+#: lang/views.py:46
+msgid ""
+"In order to use this site you must have cookies enabled in your web browser"
+msgstr ""
+
+#: main/forms/invite_forms.py:20 main/models/user_profile.py:32
+msgid "Coach"
+msgstr ""
+
+#: main/forms/invite_forms.py:20 main/models/user_profile.py:32
+msgid "Teacher"
+msgstr ""
+
+#: main/forms/invite_forms.py:21 main/models/user_profile.py:33
+msgid "Content Creator"
+msgstr ""
+
+#: main/forms/invite_forms.py:22 main/models/user_profile.py:33
+msgid "Translator"
+msgstr ""
+
+#: main/forms/invite_forms.py:22 main/models/user_profile.py:32
+msgid "Coordinator"
+msgstr ""
+
+#: main/forms/invite_forms.py:27
+msgid "Select which user class(es) you wish to create an invitation for:"
+msgstr ""
+
+#: main/forms/invite_forms.py:34
+msgctxt "Email address for the person receiving this email"
+msgid "Recipient's email address"
+msgstr ""
+
+#: main/forms/invite_forms.py:36
+msgctxt "Name of the person to receive this email"
+msgid "Recipient's name"
+msgstr ""
+
+#: main/forms/invite_forms.py:38
+msgid "Optional greeting message"
+msgstr ""
+
+#: main/forms/invite_forms.py:40
+msgid "Assign a licence to this user"
+msgstr ""
+
+#: main/forms/invite_forms.py:58
+msgid ""
+"For which target language(s) would you like to authorize this user to "
+"contribute content?"
+msgstr ""
+
+#: main/forms/invite_forms.py:79
+#, python-brace-format
+msgid "Inviting {class_type} to Organization"
+msgstr ""
+
+#: main/forms/invite_forms.py:91
+msgid "To which Organization would you like to add this user?"
+msgstr ""
+
+#: main/forms/invite_forms.py:99
+msgid "You must select an organization for this user to coordinate."
+msgstr ""
+
+#: main/forms/model_foms.py:159
+msgid "File path"
+msgstr ""
+
+#: main/forms/model_foms.py:182
+msgid "Display username"
+msgstr ""
+
+#: main/forms/model_foms.py:183
+msgid "First name"
+msgstr ""
+
+#: main/forms/model_foms.py:184
+msgid "Last name"
+msgstr ""
+
+#: main/forms/model_foms.py:193 main/forms/other_forms.py:127
+msgid ""
+"In which language(s) are you not natively fluent, but have reasonable "
+"fluency?"
+msgstr ""
+
+#: main/forms/model_foms.py:198 main/forms/other_forms.py:120
+msgid "In which language(s) are you natively fluent?"
+msgstr ""
+
+#: main/forms/model_foms.py:206
+msgid "This display username is already in use, please select a different one"
+msgstr ""
+
+#: main/forms/other_forms.py:62
+msgid "Username invalid, please check for invalid characters or spaces"
+msgstr ""
+
+#: main/forms/other_forms.py:69
+msgid "A user with that username already exists."
+msgstr ""
+
+#: main/forms/other_forms.py:81
+msgid "A user with that email already exists."
+msgstr ""
+
+#: main/forms/other_forms.py:264
+msgid "All users active in the last X days"
+msgstr ""
+
+#: main/forms/other_forms.py:265
+msgid "Specific users"
+msgstr ""
+
+#: main/models/cando.py:20 main/usecases/profile_questions.py:439
+msgid "Listening"
+msgstr ""
+
+#: main/models/cando.py:20 main/usecases/profile_questions.py:443
+msgid "Reading"
+msgstr ""
+
+#: main/models/cando.py:21 main/usecases/profile_questions.py:472
+#: main/usecases/profile_questions.py:618
+msgid "Writing"
+msgstr ""
+
+#: main/models/cando.py:21 main/usecases/profile_questions.py:476
+msgid "Speaking"
+msgstr ""
+
+#: main/models/checkup_report.py:53
+#, python-format
+msgid "Check-In Report. Stage : %(stage)s"
+msgstr ""
+
+#: main/models/checkup_report.py:55
+msgid "Check-In Report"
+msgstr ""
+
+#: main/models/competition.py:64
+msgid "Reducing variance"
+msgstr ""
+
+#: main/models/competition.py:65
+msgid "Closing down"
+msgstr ""
+
+#: main/models/competition.py:66
+msgid "Declare Winner"
+msgstr ""
+
+#: main/models/language.py:63
+msgid ""
+"Please find the correct language code at: https://www.loc.gov/standards/"
+"iso639-2/php/code_list.php"
+msgstr ""
+
+#: main/models/language.py:64
+msgid ""
+"Please find the correct language code at: https://www.localeplanet.com/icu/"
+"iso639.html"
+msgstr ""
+
+#: main/models/media_asset.py:38
+msgctxt ""
+"Tags are like the hashtags used in social media - we add tags to coaching "
+"articles to help searching for articles that fit a certain category (e.g. "
+"#for-improving-reading)"
+msgid "tags for filtering searches"
+msgstr ""
+
+#: main/models/ratification.py:20
+msgid "Approve"
+msgstr ""
+
+#: main/models/ratification.py:20
+msgid "Reject"
+msgstr ""
+
+#: main/models/ratification.py:20
+msgctxt "As in `Skip this question, I can't answer it, I want to pass`"
+msgid "Pass"
+msgstr ""
+
+#: main/models/ratification.py:23
+msgid "Proposed alternative"
+msgstr ""
+
+#: main/models/sentence.py:29
+msgid "Quiz"
+msgstr ""
+
+#: main/models/sentence.py:29
+msgid "Definition"
+msgstr ""
+
+#: main/models/sentence.py:30
+msgid "Web Interface"
+msgstr ""
+
+#: main/models/sentence.py:30
+msgid "Content title"
+msgstr ""
+
+#: main/models/sentence.py:31
+msgid "Undefined"
+msgstr ""
+
+#: main/models/sentence.py:31
+msgid "Caption"
+msgstr ""
+
+#: main/models/sentence.py:32
+msgid "Pronounciation prompt"
+msgstr ""
+
+#: main/models/user_profile.py:33
+msgid "Student"
+msgstr ""
+
+#: main/models/user_profile.py:34
+#: notifications/templates/notifications/list_notifications.html:19
+msgid "All"
+msgstr ""
+
+#: main/models/user_profile.py:180
+msgid "Teacher permission to manage assigned students"
+msgstr ""
+
+#: main/models/vote.py:25
+msgid "Flag"
+msgstr ""
+
+#: main/serializers/user_profile_serializer.py:45
+msgid "This email address cannot be used"
+msgstr ""
+
+#: main/serializers/user_profile_serializer.py:57
+msgid "This username is already in use"
+msgstr ""
+
+#: main/templates/main/cando_form.html:7
+msgid "Update CanDo Statement"
+msgstr ""
+
+#: main/templates/main/cando_form.html:9
+msgid "Create CanDo Statement"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:9
+msgid "Weeks"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:12
+msgid "Days"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:17
+#, python-format
+msgid ""
+"It has been %(calendar_days)s days since your last check-up. Please fill in "
+"a log of your language learning activities since your last check-up on "
+"%(coaching_started_date)s."
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:18
+#, python-format
+msgid ""
+"It has been %(calendar_days)s days since your last check-up, "
+"%(learning_days)s of which where used for language learning. Please fill in "
+"a log of your language learning activities for the past %(learning_days)s "
+"days."
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:22
+msgid "Learning category"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:23
+msgid "Number of hours"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:24
+msgid "What did you do?"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:28
+msgid "Formal Teaching"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:41
+msgid ""
+"Any time deliberate teaching is being done by someone else.\n"
+"\t\t\t\t\tClass lessons, sessions with a tutor, Skype lessons, meetings with "
+"a practice partner in a cafe... \n"
+"\t\t\t\t  "
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:51
+msgid "Personal study time"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:65
+msgid ""
+"Any time spent by yourself.\n"
+"\t\t\t\t    Reviewing notes, studying flashcards, reading textbook, watching "
+"TV.\n"
+"\t\t\t\t  "
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:76
+msgid "Immersion"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:90
+msgid ""
+"Any social time spent with native speakers outside a teaching arrangement.\n"
+"\t\t\t\t  \tSocialising, chatting, visiting a native speaker's home.\n"
+"\t\t\t\t  "
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:103
+msgid "My total hours:"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:105
+msgid "My weekly hour average is:"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:106
+#, python-format
+msgctxt "For example '(0 hours over the past 3 days)'"
+msgid ""
+"\n"
+"\t\t\t\t(%(hour_count)s hours over the past %(learning_days)s days)\n"
+"\t\t\t\t"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:111
+msgid "My personal language goal is:"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:112
+msgid ""
+"The following factors affected achieving or not achieving my language goal "
+"hours during this time:"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:117
+#: main/usecases/student_activity_report.py:15
+msgid "Very low"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:120
+#: main/usecases/student_activity_report.py:16
+msgid "Poor"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:123
+#: main/usecases/student_activity_report.py:17
+msgid "Mediocre"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:126
+#: main/usecases/student_activity_report.py:18
+msgid "Good"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:132
+msgid "...because:"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:133
+msgid ""
+"To move forward in my language learning at this time, I need help and advice "
+"on the following:"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:135
+msgid ""
+"Would you like to make an entry this week in the <b>\"Language Blunder Story "
+"Competition\"</b>?"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:137
+msgid "What is the Language blunder story competition?"
+msgstr ""
+
+#: main/templates/main/check_up_snippet.html:138
+msgid ""
+"\n"
+"\t\t\t\t\t\t<p>The only way to learn a language is by practice and that "
+"requires us to make mistakes!</p> \n"
+"\t\t\t\t\t\t<p>If we become ashamed of our mistakes we are likely to stop "
+"trying, so research suggests an \n"
+"\t\t\t\t\t\tessential characteristic of successful language students is the "
+"ability to laugh at themselves.</p> \n"
+"\t\t\t\t\t\t<p>With that in mind, you are encouraged to \n"
+"\t\t\t\t\t\trevel in your language blunder stories. In fact, a winner will "
+"be selected for the student who \n"
+"\t\t\t\t\t\thas recently made the most humorous language mistake. Why not "
+"share your tears with others and bring them to\n"
+"\t\t\t\t\t\ttears of laughter?</p>\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: main/templates/main/competition/competition_details.html:7
+msgid "Language blunders Competiton details"
+msgstr ""
+
+#: main/templates/main/competition/competition_list.html:3
+msgid "Language blunder competitions"
+msgstr ""
+
+#: main/templates/main/email/email_change_confirmation.html:6
+msgid ""
+"You recently changed your email address. Please visit the link below to "
+"confirm that information update:"
+msgstr ""
+
+#: main/templates/main/email/email_portal.html:25
+msgid "Email sent successfully."
+msgstr ""
+
+#: main/templates/main/email/email_portal.html:30
+msgctxt "As in 'Write here who the email will be coming from'"
+msgid "From"
+msgstr ""
+
+#: main/templates/main/email/email_portal.html:39
+msgctxt "As in 'Write here who the email will be send to'"
+msgid "To"
+msgstr ""
+
+#: main/templates/main/email/email_portal.html:65
+msgid "Subject"
+msgstr ""
+
+#: main/templates/main/email/email_portal.html:83
+msgid "Send"
+msgstr ""
+
+#: main/templates/main/email/email_portal.html:88
+msgid "No user chosen."
+msgstr ""
+
+#: main/templates/main/email/email_portal.html:91
+msgctxt "Idle days are days where a student was not studying language"
+msgid "Please enter a valid number of idle days"
+msgstr ""
+
+#: main/templates/main/email/email_portal.html:94
+msgid "Please enter a subject"
+msgstr ""
+
+#: main/templates/main/email/email_portal.html:97
+msgid "Please enter some body text"
+msgstr ""
+
+#: main/templates/main/email/invite.html:3
+#: main/templates/main/email/licence_invitation.html:3
+#: main/templates/main/email/student_invite_coach.html:5
+#, python-format
+msgid " Dear %(first_name)s,"
+msgstr ""
+
+#: main/templates/main/email/invite.html:4
+#, python-format
+msgid ""
+"%(initiator_name)s has invited you to the following role on GrowFastGrowDeep."
+"com:"
+msgstr ""
+
+#: main/templates/main/email/invite.html:14
+#: main/templates/main/email/student_invite_coach.html:9
+msgid "You can complete your registration by navigating to the following link:"
+msgstr ""
+
+#: main/templates/main/email/licence_invitation.html:4
+#, python-format
+msgid ""
+"%(initiator_name)s has invited you to the following Licence on "
+"GrowFastGrowDeep.com:"
+msgstr ""
+
+#: main/templates/main/email/licence_invitation.html:16
+msgid "You can apply it to your account by navigating to the following link:"
+msgstr ""
+
+#: main/templates/main/email/signoff.html:4
+msgid "The Grow Fast Grow Deep Team"
+msgstr ""
+
+#: main/templates/main/email/student_invite_coach.html:7
+#, python-format
+msgid ""
+"%(student_name)s has invited you to be their language coach on "
+"GrowFastGrowDeep.com. "
+msgstr ""
+
+#: main/templates/main/email/welcome_email.html:6
+msgid ""
+"Congratulation, you are now registered at GrowFastGrowDeep.com with the "
+"following details:"
+msgstr ""
+
+#: main/templates/main/email/welcome_email.html:10
+#, python-format
+msgid "Email: %(email)s"
+msgstr ""
+
+#: main/templates/main/email/welcome_email.html:12
+#, python-format
+msgid "Username: %(username)s"
+msgstr ""
+
+#: main/templates/main/language_create_update.html:7
+msgid "Language List"
+msgstr ""
+
+#: main/templates/main/language_create_update.html:9
+msgid "Delete Language"
+msgstr ""
+
+#: main/templates/main/language_dashboard.html:4
+msgid "Language Dashboard"
+msgstr ""
+
+#: main/templates/main/language_dashboard.html:10
+msgid "Language Progress"
+msgstr ""
+
+#: main/templates/main/language_dashboard.html:18
+msgid "POT translation Progress:"
+msgstr ""
+
+#: main/templates/main/language_dashboard.html:31
+msgid "Example questions Progress :"
+msgstr ""
+
+#: main/templates/main/language_dashboard.html:44
+msgid "Total Grammars:"
+msgstr ""
+
+#: main/templates/main/language_dashboard.html:52
+msgid "Registered Grammar Concepts:"
+msgstr ""
+
+#: main/templates/main/language_dashboard.html:60
+msgid "Questions per Grammar:"
+msgstr ""
+
+#: main/templates/main/language_dashboard.html:75
+msgid "Tips available:"
+msgstr ""
+
+#: main/templates/main/list_candos.html:3
+msgid "CanDo Statements"
+msgstr ""
+
+#: main/templates/main/list_candos.html:9
+msgid "Create a CanDo statement"
+msgstr ""
+
+#: main/templates/main/list_candos.html:17
+msgid "Category"
+msgstr ""
+
+#: main/templates/main/list_example_sentences.html:4
+#, python-format
+msgid "Create %(target_language)s Sentences from Examples"
+msgstr ""
+
+#: main/templates/main/list_example_sentences.html:13
+msgid "English Example"
+msgstr ""
+
+#: main/templates/main/list_example_sentences.html:16
+msgid "Add Questions"
+msgstr ""
+
+#: main/templates/main/list_example_sentences.html:26
+msgid "Add/Edit question"
+msgstr ""
+
+#: main/templates/main/media_asset.html:6
+msgid "Media Asset management"
+msgstr ""
+
+#: main/templates/main/media_asset.html:48
+msgid "Active tags"
+msgstr ""
+
+#: main/templates/main/model_confirm_delete.html:3
+#, python-format
+msgid "Delete %(model_name)s"
+msgstr ""
+
+#: main/templates/main/model_confirm_delete.html:8
+#, python-format
+msgid "Are you sure you want to delete <b>%(object)s</b>?"
+msgstr ""
+
+#: main/templates/main/model_create.html:3
+#, python-format
+msgid "Create %(model_name)s"
+msgstr ""
+
+#: main/templates/main/model_create.html:9
+#: main/templates/main/model_update.html:10
+#, python-format
+msgid "List of %(model_name)s"
+msgstr ""
+
+#: main/templates/main/model_list.html:3
+#, python-format
+msgid "%(model_name)s List"
+msgstr ""
+
+#: main/templates/main/model_list.html:35
+#, python-format
+msgid "No %(model_name)ss found."
+msgstr ""
+
+#: main/templates/main/model_list.html:42
+#: main/templates/main/model_update.html:9
+#, python-format
+msgid "Create a new %(model_name)s"
+msgstr ""
+
+#: main/templates/main/model_update.html:4
+#, python-format
+msgid "%(model_name)s Update"
+msgstr ""
+
+#: main/templates/main/pagination_nav_snippet.html:8
+#: main/templates/main/pagination_nav_snippet.html:10
+msgid "Previous"
+msgstr ""
+
+#: main/templates/main/pagination_nav_snippet.html:18
+msgid "(current)"
+msgstr ""
+
+#: main/templates/main/roles_to_register_snippet.html:4
+msgid "You will apply the following changes"
+msgstr ""
+
+#: main/templates/main/select_class.html:4
+msgid "Select User Class"
+msgstr ""
+
+#: main/templates/main/select_course.html:30
+msgid "You are not yet registered for any courses."
+msgstr ""
+
+#: main/templates/main/select_course.html:31
+#: main/templates/main/select_course.html:42
+msgid "Sign up for a new course"
+msgstr ""
+
+#: main/templates/main/select_course.html:33
+msgid ""
+"No other courses available to you. Try altering your native languages under "
+"profile settings."
+msgstr ""
+
+#: main/templates/main/settings/about_me.html:11
+msgid "Username"
+msgstr ""
+
+#: main/templates/main/settings/my_courses.html:8
+msgid "My courses as a Content Creator:"
+msgstr ""
+
+#: main/usecases/competition.py:149
+#, python-brace-format
+msgid ""
+"The story you submitted on {submission_date} has gathered the most votes."
+msgstr ""
+
+#: main/usecases/course.py:40
+msgid "Inadequate for user"
+msgstr ""
+
+#. Translators: Low quality
+#: main/usecases/course.py:42
+msgid "Course still in development"
+msgstr ""
+
+#. Translators: Medium quality
+#: main/usecases/course.py:44
+msgid "Course incomplete"
+msgstr ""
+
+#. Translators: Good quality
+#: main/usecases/course.py:46
+msgid "Course quality good"
+msgstr ""
+
+#: main/usecases/course.py:90
+msgid "A1 Beginner"
+msgstr ""
+
+#: main/usecases/course.py:90
+msgid "A2 Beginner-advanced"
+msgstr ""
+
+#: main/usecases/course.py:90
+msgid "B1 Intermediate"
+msgstr ""
+
+#: main/usecases/course.py:90
+msgid "B2 Intermediate-advanced"
+msgstr ""
+
+#: main/usecases/course.py:94
+msgid "Not yet in use"
+msgstr ""
+
+#: main/usecases/course.py:141
+#, python-format
+msgid "Learn %(target_language)s (From %(native_language)s)"
+msgstr ""
+
+#: main/usecases/course.py:165
+#, python-format
+msgid "%(native)s to %(target)s course"
+msgstr ""
+
+#: main/usecases/profile_questions.py:32
+msgid "Maybe, but not now"
+msgstr ""
+
+#: main/usecases/profile_questions.py:49 main/usecases/profile_questions.py:935
+msgid "I arrange times to practice regularly with a native speaker"
+msgstr ""
+
+#: main/usecases/profile_questions.py:50 main/usecases/profile_questions.py:940
+msgid "I attend a language class"
+msgstr ""
+
+#: main/usecases/profile_questions.py:51
+msgid "I employ a private teacher"
+msgstr ""
+
+#: main/usecases/profile_questions.py:52 main/usecases/profile_questions.py:950
+msgid "I am studying a language textbook on my own initiative"
+msgstr ""
+
+#: main/usecases/profile_questions.py:53
+msgid "No I haven’t started yet"
+msgstr ""
+
+#: main/usecases/profile_questions.py:90
+msgid "1: Not at all, 5: Very much"
+msgstr ""
+
+#: main/usecases/profile_questions.py:113
+msgid "Select as many as apply"
+msgstr ""
+
+#: main/usecases/profile_questions.py:345
+msgid ""
+"Which languages do you know? Please select at least one language as your "
+"native language."
+msgstr ""
+
+#: main/usecases/profile_questions.py:430
+msgid "Audio/Written reception"
+msgstr ""
+
+#: main/usecases/profile_questions.py:431
+msgid "Do you prefer listening or reading as a way to develop your language?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:447
+#: main/usecases/profile_questions.py:480
+msgid "I am unsure"
+msgstr ""
+
+#: main/usecases/profile_questions.py:463
+msgid "Audio/Written production"
+msgstr ""
+
+#: main/usecases/profile_questions.py:464
+msgid "Do you prefer writing or speaking as a way to develop your language?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:492
+msgid "Extrovert/Introvert"
+msgstr ""
+
+#: main/usecases/profile_questions.py:493
+msgid "Do you consider yourself an extrovert, introvert, or in the middle?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:504
+msgid "Extrovert"
+msgstr ""
+
+#: main/usecases/profile_questions.py:508
+msgid "In the middle"
+msgstr ""
+
+#: main/usecases/profile_questions.py:512
+msgid "Introvert"
+msgstr ""
+
+#: main/usecases/profile_questions.py:520
+msgid "Talent"
+msgstr ""
+
+#: main/usecases/profile_questions.py:521
+msgid "How naturally talented do you feel you are at language learning?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:533
+msgid "Helpfulness of GFGD"
+msgstr ""
+
+#: main/usecases/profile_questions.py:534
+msgid ""
+"How much do you believe GrowFastGrowDeep is helping your language learning?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:549
+msgid "Improvement of GFGD"
+msgstr ""
+
+#: main/usecases/profile_questions.py:550
+msgid "Do you have any ideas as to how GrowFastGrowDeep could be improved?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:565
+msgid "Confidence"
+msgstr ""
+
+#: main/usecases/profile_questions.py:566
+msgid "How confident do you feel about being successful in language learning?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:585
+msgid "Need Help"
+msgstr ""
+
+#: main/usecases/profile_questions.py:586
+msgid "In which of these areas do you feel you most need help?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:595 pronunciation/views.py:32
+#: templates/navbar.html:82
+msgid "Pronunciation"
+msgstr ""
+
+#: main/usecases/profile_questions.py:598
+msgid "Expanding your vocabulary"
+msgstr ""
+
+#: main/usecases/profile_questions.py:602
+msgid "Listening comprehension"
+msgstr ""
+
+#: main/usecases/profile_questions.py:606
+msgid "Reading comprehension"
+msgstr ""
+
+#: main/usecases/profile_questions.py:610
+msgid "Speaking accuracy"
+msgstr ""
+
+#: main/usecases/profile_questions.py:614
+msgid "Speaking fluency"
+msgstr ""
+
+#: main/usecases/profile_questions.py:631
+msgid "Fluency/Accuracy"
+msgstr ""
+
+#: main/usecases/profile_questions.py:632
+msgid "Which of these areas do you feel stronger in?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:640
+msgid "Fluency"
+msgstr ""
+
+#: main/usecases/profile_questions.py:641
+msgid ""
+"I can speak with confidence, but I know I make a lot of mistakes even if "
+"people understand me"
+msgstr ""
+
+#: main/usecases/profile_questions.py:645
+msgid "Accuracy"
+msgstr ""
+
+#: main/usecases/profile_questions.py:646
+msgid ""
+"I am careful to speak properly, but I can’t speak fluently with confidence"
+msgstr ""
+
+#: main/usecases/profile_questions.py:650
+msgid "I don't know"
+msgstr ""
+
+#: main/usecases/profile_questions.py:658
+msgid "Improving your vocabulary"
+msgstr ""
+
+#: main/usecases/profile_questions.py:659
+msgid ""
+"What methods did you use most regularly to improve your vocabulary in the "
+"last month?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:676
+msgid "Improving your grammar"
+msgstr ""
+
+#: main/usecases/profile_questions.py:677
+msgid ""
+"What methods did you use most regularly to improve your grammar in the last "
+"month?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:695
+msgid "Improving your speaking"
+msgstr ""
+
+#: main/usecases/profile_questions.py:696
+msgid ""
+"What methods did you use most regularly to improve your speaking in the last "
+"month?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:715
+msgid "Improving your listening comprehension"
+msgstr ""
+
+#: main/usecases/profile_questions.py:716
+msgid ""
+"What methods did you use most regularly to improve your listening "
+"comprehension in the last month?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:734
+msgid "Regularity of meetings with your coach"
+msgstr ""
+
+#: main/usecases/profile_questions.py:735
+msgid "How regularly do you meet up with your coach?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:744
+#: notifications/models/notification_preferences.py:18
+#: notifications/models/notification_preferences.py:47
+msgid "Weekly"
+msgstr ""
+
+#: main/usecases/profile_questions.py:748
+msgid "Twice a month"
+msgstr ""
+
+#: main/usecases/profile_questions.py:752
+msgid "Monthly"
+msgstr ""
+
+#: main/usecases/profile_questions.py:756
+msgid "Almost never"
+msgstr ""
+
+#: main/usecases/profile_questions.py:760
+msgid "We have yet to meet up"
+msgstr ""
+
+#: main/usecases/profile_questions.py:768
+msgid "Coach meeting"
+msgstr ""
+
+#: main/usecases/profile_questions.py:769
+msgid "Who usually initiates you and your coach meeting?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:780
+msgctxt ""
+"This is a possible answer the user can select in response to the question "
+"\"Who usually initiates you and your coach meeting?\", so the student is "
+"saying \"I do it myself, not my coach\""
+msgid "I do"
+msgstr ""
+
+#: main/usecases/profile_questions.py:787
+msgctxt ""
+"This is a possible answer the user can select in response to the question "
+"\"Who usually initiates you and your coach meeting?\", so the student is "
+"saying \"My coach initiates the meetings\""
+msgid "My coach does"
+msgstr ""
+
+#: main/usecases/profile_questions.py:794
+msgctxt ""
+"This is a possible answer the user can select in response to the question "
+"\"Who usually initiates you and your coach meeting?\", so the student is "
+"saying \"Neither of us initiate a meeting\""
+msgid "Neither of us do"
+msgstr ""
+
+#: main/usecases/profile_questions.py:803
+#: main/usecases/profile_questions.py:816
+msgid "Coach preparedness"
+msgstr ""
+
+#: main/usecases/profile_questions.py:804
+msgid "How would you rate your coach on preparedness for your sessions?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:817
+msgid ""
+"If your coach doesn’t know the answer to something, do they generally come "
+"back with the answer the following week?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:834
+msgid "Sometimes"
+msgstr ""
+
+#: main/usecases/profile_questions.py:845
+msgid "Hour commitment"
+msgstr ""
+
+#: main/usecases/profile_questions.py:846
+msgid "How many hours do you plan to commit to language learning each week?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:847
+msgid "Hours per week"
+msgstr ""
+
+#: main/usecases/profile_questions.py:871
+msgid "Language experience"
+msgstr ""
+
+#: main/usecases/profile_questions.py:880
+msgid "None at all"
+msgstr ""
+
+#: main/usecases/profile_questions.py:885
+msgid "A little"
+msgstr ""
+
+#: main/usecases/profile_questions.py:886
+msgid "I know some words and phrases"
+msgstr ""
+
+#: main/usecases/profile_questions.py:890
+msgid "Some"
+msgstr ""
+
+#: main/usecases/profile_questions.py:891
+msgid "I have been studying it for less than a year"
+msgstr ""
+
+#: main/usecases/profile_questions.py:895
+msgid "Moderate"
+msgstr ""
+
+#: main/usecases/profile_questions.py:896
+msgid "I have some confidence in the language"
+msgstr ""
+
+#: main/usecases/profile_questions.py:900
+msgid "Advanced"
+msgstr ""
+
+#: main/usecases/profile_questions.py:901
+msgid "I am already quite fluent"
+msgstr ""
+
+#: main/usecases/profile_questions.py:907
+#, python-format
+msgid "Have you any prior experience in learning %(target_language)s?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:921
+msgid "Formal instruction"
+msgstr ""
+
+#: main/usecases/profile_questions.py:922
+msgid "Are you currently receiving formal language instruction in any form?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:939
+msgid "Class"
+msgstr ""
+
+#: main/usecases/profile_questions.py:944
+msgid "Private Teacher"
+msgstr ""
+
+#: main/usecases/profile_questions.py:945
+msgid "I employ a private teacher to give me lessons"
+msgstr ""
+
+#: main/usecases/profile_questions.py:949
+msgid "Textbook"
+msgstr ""
+
+#: main/usecases/profile_questions.py:954
+msgid "None"
+msgstr ""
+
+#: main/usecases/profile_questions.py:955
+msgid "No, I haven’t started yet"
+msgstr ""
+
+#: main/usecases/profile_questions.py:969
+msgid "Language accessibility"
+msgstr ""
+
+#: main/usecases/profile_questions.py:978
+msgid "Everywhere"
+msgstr ""
+
+#: main/usecases/profile_questions.py:979
+msgid "Yes, as soon as I go out the door it is spoken everywhere"
+msgstr ""
+
+#: main/usecases/profile_questions.py:983
+msgid "Just a few places"
+msgstr ""
+
+#: main/usecases/profile_questions.py:984
+msgid "Yes, there are small groups of people I can visit who speak it"
+msgstr ""
+
+#: main/usecases/profile_questions.py:989
+msgid "If I looked hard maybe I could find someone who speaks it"
+msgstr ""
+
+#: main/usecases/profile_questions.py:995
+#, python-format
+msgid ""
+"Are you currently living in a country where %(target_language)s is commonly "
+"spoken around you?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1005
+msgid "Language teacher"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1006
+msgid "Would you like to find a Language teacher?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1026
+msgid "Would you like to find a Practice Partner?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1044
+msgid "Class you are attending"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1045
+msgid "What is the name of the language school or program you are attending?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1076
+msgid "Gender"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1077
+msgid "What is your gender?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1088
+msgid "Male"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1092
+msgid "Female"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1105
+msgid "Language study permission"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1108
+msgctxt ""
+"this is a question, followed by options, like a) required by your job b) a "
+"personal hobby"
+msgid "Is your language study"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1120
+msgctxt ""
+"Following the question 'Is your language study...', this answer indicates it "
+"is required by work, not a hobby"
+msgid "Required by your workplace"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1125
+msgctxt ""
+"Following the question 'Is your language study...', this answer indicates it "
+"is not required by work, but permitted"
+msgid "Not required, but permitted by your workplace"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1130
+msgctxt ""
+"Following the question 'Is your language study...', this answer indicates it "
+"is a personal hobby, not required by work"
+msgid "A personal pursuit"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1140
+msgid "Permission to study"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1141
+msgid ""
+"Is your workplace providing you with sufficient time to focus on language "
+"learning?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1185
+msgid "Children"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1186
+msgid "Do you have children?"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1200
+msgid "I have children at home too young to attend school"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1204
+#, python-brace-format
+msgid "I have children at home who attend a school taught in {target_language}"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1208
+#: main/usecases/profile_questions.py:1212
+#, python-brace-format
+msgid ""
+"I have children at home who attend a school taught in a language different "
+"to {target_language}"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1216
+msgid "I have children at home whom we are home schooling"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1220
+msgid "I have children who graduated from school"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1224
+msgid "I have children who no longer live at home"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1228
+msgid "I do not have children"
+msgstr ""
+
+#: main/usecases/profile_questions.py:1242
+msgid "Timetable"
+msgstr ""
+
+#: main/usecases/tutorial.py:10
+msgid ""
+"<p>Research shows language students learn <b><i>much more quickly</i></b> "
+"if             they take time to journal and reflect on their language "
+"learning             activities.</p><p> Please take a moment to write some "
+"answers on this             page each week when you check in for your GFGD "
+"coaching session.</p>"
+msgstr ""
+
+#: main/usecases/tutorial.py:14
+msgid ""
+"<p>Every coaching session ends with this page. It will             form a "
+"journal containing a summary of your progress, goals and             "
+"coaching advice. </p><p> You can review it whenever you like during the "
+"upcoming week.             </p><p>Pick a time in roughly a week to re-visit "
+"GFGD for your next coaching             session. Happy language learning!</p>"
+msgstr ""
+
+#: main/views/add_content.py:88
+msgid "Update Language"
+msgstr ""
+
+#: main/views/add_content.py:93
+msgid "Add a new Language"
+msgstr ""
+
+#: main/views/add_content.py:100
+msgid "Language successfully saved"
+msgstr ""
+
+#: main/views/add_content.py:172
+msgid "File successfully uploaded"
+msgstr ""
+
+#: main/views/api_views/account_api_views.py:274
+msgid "Your profile information has been successfully updated"
+msgstr ""
+
+#: main/views/api_views/account_api_views.py:355
+msgid "Your password has been changed. Log in again with your new credentials"
+msgstr ""
+
+#: main/views/api_views/sp_detail.py:118
+msgid "You are not registered to any course"
+msgstr ""
+
+#: main/views/comment.py:38
+msgid ""
+"Your comment was not saved, please reload the page and try again. If error "
+"persists, contact site administrator"
+msgstr ""
+
+#: main/views/comment.py:53
+msgid "Error while trying to edit comment"
+msgstr ""
+
+#: main/views/main.py:119
+msgid "Select course"
+msgstr ""
+
+#: main/views/main.py:207
+#, python-format
+msgid "You have successfully registered for %(course_name)s"
+msgstr ""
+
+#: main/views/main.py:214
+msgid "Sign up for a new Course"
+msgstr ""
+
+#: notifications/forms.py:9
+msgid "How often do you want to receive a notification summary by email ?"
+msgstr ""
+
+#: notifications/models/notification_preferences.py:14
+msgid "Never"
+msgstr ""
+
+#: notifications/models/notification_preferences.py:16
+msgctxt ""
+"An option in answer to 'How often do you want to be emailed when a "
+"notification arrives?'. It is an answer meaning 'Email me each time a "
+"notification arrives', we need a very brief translation though, like the "
+"original English"
+msgid "Per event"
+msgstr ""
+
+#: notifications/models/notification_preferences.py:18
+#: notifications/models/notification_preferences.py:46
+msgid "Daily"
+msgstr ""
+
+#: notifications/models/notification_preferences.py:26
+msgid "You have got 1 notification from GFGD"
+msgstr ""
+
+#: notifications/models/notification_preferences.py:28
+msgid "Your daily GFGD digest"
+msgstr ""
+
+#: notifications/models/notification_preferences.py:30
+msgid "Your weekly GFGD digest"
+msgstr ""
+
+#: notifications/models/notification_preferences.py:44
+msgctxt ""
+"An option in answer to \"How often do you want to be emailed when a "
+"notification arrives?\" \"One for each event\" is an answer meaning \"Email "
+"me each time a notification arrives\", we need a very brief translation "
+"though, like the original English"
+msgid "One for each event"
+msgstr ""
+
+#: notifications/models/notification_preferences.py:48
+msgid "I do not want to be notified by email"
+msgstr ""
+
+#: notifications/serializers.py:23
+#, python-format
+msgid "%(hours_or_days)s ago"
+msgstr ""
+
+#: notifications/templates/notifications/assigned_licence_notification.html:3
+#, python-format
+msgid ""
+"\n"
+"    Dear %(receiver_name)s, You have been assigned a %(licence_type)s "
+"licence by %(initiator_name)s.\n"
+msgstr ""
+
+#: notifications/templates/notifications/cancelled_booking_mentor_notification.html:2
+#: notifications/templates/notifications/cancelled_booking_student_notification.html:2
+#: notifications/templates/notifications/mentor_booking_notification.html:2
+#: notifications/templates/notifications/new_coach_feedback_notification.html:2
+#, python-format
+msgid "Dear %(receiver_name)s"
+msgstr ""
+
+#: notifications/templates/notifications/cancelled_booking_mentor_notification.html:4
+#, python-format
+msgid "%(student_name)s cancelled their session with you."
+msgstr ""
+
+#: notifications/templates/notifications/cancelled_booking_mentor_notification.html:6
+#: notifications/templates/notifications/cancelled_booking_student_notification.html:6
+msgid "You can view your upcoming sessions by clicking the link below:"
+msgstr ""
+
+#: notifications/templates/notifications/cancelled_booking_student_notification.html:4
+#, python-format
+msgid "%(mentor_name)s cancelled their session with you."
+msgstr ""
+
+#: notifications/templates/notifications/list_notifications.html:6
+msgid "My Notifications"
+msgstr ""
+
+#: notifications/templates/notifications/list_notifications.html:13
+msgid "No notifications found"
+msgstr ""
+
+#: notifications/templates/notifications/list_notifications.html:23
+msgid "Unread"
+msgstr ""
+
+#: notifications/templates/notifications/mentor_booking_notification.html:5
+#, python-format
+msgid ""
+"You were booked by a student for a session to take place on %(date_string)s."
+msgstr ""
+
+#: notifications/templates/notifications/mentor_booking_notification.html:7
+#, python-format
+msgid ""
+"Another student will join your session to take place on %(date_string)s."
+msgstr ""
+
+#: notifications/templates/notifications/mentor_booking_notification.html:9
+#, python-format
+msgid ""
+"The total number of students that will be attending is now "
+"%(attendee_count)s."
+msgstr ""
+
+#: notifications/templates/notifications/mentor_booking_notification.html:12
+msgid ""
+"Please use one of the following links to either confirm that you can attend "
+"this time, or cancel the booking."
+msgstr ""
+
+#: notifications/templates/notifications/mentor_booking_notification.html:13
+#, python-format
+msgid "Confirmation link: %(confirm_booking_url)s"
+msgstr ""
+
+#: notifications/templates/notifications/mentor_booking_notification.html:14
+#, python-format
+msgid "Cancellation link: %(cancel_booking_url)s"
+msgstr ""
+
+#: notifications/templates/notifications/new_coach_feedback_notification.html:4
+#, python-format
+msgid "Your coach %(actor_name)s has left a message for you."
+msgstr ""
+
+#: notifications/templates/notifications/new_coach_feedback_notification.html:8
+msgid "You can click the link below to see the other messages from your coach."
+msgstr ""
+
+#: notifications/templates/notifications/notification_summary_email.html:6
+msgid "Notifications concerning you:"
+msgstr ""
+
+#: notifications/templates/notifications/notification_summary_email.html:11
+#, python-format
+msgid ""
+" \n"
+"  %(event)s occured on %(date)s.\n"
+"  "
+msgstr ""
+
+#: notifications/templates/notifications/notification_summary_email.html:18
+msgid "View your notification inbox here:"
+msgstr ""
+
+#: notifications/templates/notifications/sp_and_mentor_match_notification.html:4
+#, python-format
+msgid ""
+"\n"
+"      Dear %(receiver_name)s,\n"
+"    "
+msgstr ""
+
+#: notifications/templates/notifications/sp_and_mentor_match_notification.html:8
+#, python-format
+msgid ""
+"\n"
+"      %(actor_name)s has just been matched to you as your %(matched_role)s.\n"
+"      Please connect with each other to arrange a mutually convenient "
+"meeting time.\n"
+"    "
+msgstr ""
+
+#: notifications/templates/notifications/sp_and_mentor_match_notification.html:15
+msgid "Your email address"
+msgstr ""
+
+#: notifications/templates/notifications/sp_and_mentor_match_notification.html:18
+#, python-format
+msgid ""
+"\n"
+"      %(actor_name)s's email address: \n"
+"    "
+msgstr ""
+
+#: notifications/templates/notifications/tt_match_notification.html:3
+#, python-format
+msgid ""
+"\n"
+"    Dear %(receiver_name)s,\n"
+"    %(initiator_name)s has appointed you as %(receiver_role)s for "
+"%(matched_role)s %(actor_name)s.\n"
+msgstr ""
+
+#: notifications/templates/notifications/tt_match_notification.html:11
+#, python-format
+msgid ""
+"\n"
+"            You have %(total_matches)s timetable matches with your new "
+"%(matched_role)s:\n"
+"        "
+msgstr ""
+
+#: notifications/templates/notifications/tt_match_notification.html:24
+#: notifications/templates/notifications/tt_match_notification.html:30
+#, python-format
+msgid ""
+"\n"
+"            Use this email %(actor_email)s to contact your "
+"%(matched_role)s.\n"
+"        "
+msgstr ""
+
+#: notifications/templates/notifications/tt_match_notification.html:37
+#, python-format
+msgid "Message from %(initiator_name)s"
+msgstr ""
+
+#: notifications/templates/notifications/view_notification.html:6
+msgid "Notification Details"
+msgstr ""
+
+#: notifications/templates/notifications/withdrawn_licence_notification.html:3
+#, python-format
+msgid ""
+"\n"
+"    Dear %(receiver_name)s, your %(licence_type)s licence has been withdrawn "
+"by %(initiator_name)s.\n"
+msgstr ""
+
+#: notifications/usecases/notifications.py:34
+msgid "mentor"
+msgstr ""
+
+#: notifications/usecases/notifications.py:181
+#, python-brace-format
+msgid "{username} has accepted you as their {mentor_type}"
+msgstr ""
+
+#: notifications/usecases/notifications.py:193
+#, python-brace-format
+msgid "{username} has completed registration as a student"
+msgstr ""
+
+#: notifications/usecases/notifications.py:212
+#, python-brace-format
+msgid "{username} has submitted a checkup report"
+msgstr ""
+
+#: notifications/usecases/notifications.py:231
+#, python-brace-format
+msgid "You have had a {mentor_type} assigned to you"
+msgstr ""
+
+#: notifications/usecases/notifications.py:241
+msgid "Your story won this month's Language Blunders competition"
+msgstr ""
+
+#: notifications/usecases/notifications.py:261
+#, python-brace-format
+msgid "{mentor_name} has accepted your invitation as {mentor_type}"
+msgstr ""
+
+#: notifications/usecases/notifications.py:284
+#, python-brace-format
+msgid "You have accepted a new responsibility as {mentor_type}"
+msgstr ""
+
+#: notifications/usecases/notifications.py:306
+#, python-brace-format
+msgid ""
+"You have been paired with {name}, a {matched_role}, as their {receiver_role}"
+msgstr ""
+
+#: notifications/usecases/notifications.py:336
+#, python-brace-format
+msgid ""
+"Your timetable matches with your new {matched_role} {username}'s timetable"
+msgstr ""
+
+#: notifications/usecases/notifications.py:354
+#, python-brace-format
+msgid ""
+"You have been assigned a {licence_type} licence by {organization_title}."
+msgstr ""
+
+#: notifications/usecases/notifications.py:371
+#, python-brace-format
+msgid "{licence_type} licence has been ended by {organization_name}"
+msgstr ""
+
+#: notifications/usecases/notifications.py:396
+msgid "You were booked by a student"
+msgstr ""
+
+#: notifications/usecases/notifications.py:415
+#, python-brace-format
+msgid "Your session with a {role} has been cancelled"
+msgstr ""
+
+#: notifications/usecases/notifications.py:443
+msgid "Your mentoring session has been canceled"
+msgstr ""
+
+#: notifications/usecases/notifications.py:461
+msgid "Your coach has left a message for you"
+msgstr ""
+
+#: notifications/wrappers.py:38 notifications/wrappers.py:41
+msgid "Page not found"
+msgstr ""
+
+#: overview/forms.py:24
+#, python-format
+msgid "Select who you wish to assign as %(role_type)s"
+msgstr ""
+
+#: overview/forms.py:25
+#, python-format
+msgid ""
+"Add any messages you would like emailed to them to explain why you assigned "
+"them as %(role_type)s"
+msgstr ""
+
+#: overview/forms.py:26
+#, python-format
+msgid "Add a message to be emailed to the %(role_type)s"
+msgstr ""
+
+#: overview/forms.py:50
+#, python-brace-format
+msgid ""
+"There are no available users with the {mentor_title} role in {org_title}."
+msgstr ""
+
+#: overview/forms.py:52
+#, python-brace-format
+msgid ""
+"There are no users with the {mentor_title} role who can be assigned by you."
+msgstr ""
+
+#: overview/forms.py:65
+#, python-brace-format
+msgid "You have been appointed as a {mentor_role} for {student_name}"
+msgstr ""
+
+#: overview/forms.py:66
+#, python-brace-format
+msgid ""
+"You have been appointed as a student with {mentor_name} as your "
+"{mentor_role}."
+msgstr ""
+
+#: overview/templates/overview/analytics/profile_answer_stats.html:7
+msgid "Profile Question Answers"
+msgstr ""
+
+#: overview/templates/overview/analytics/user_stats.html:6
+msgid "View users"
+msgstr ""
+
+#: overview/templates/overview/archive_snippet.html:5
+msgid "Show all"
+msgstr ""
+
+#: overview/templates/overview/archive_snippet.html:8
+msgid "Show Favorites"
+msgstr ""
+
+#: overview/templates/overview/archive_snippet.html:13
+msgid "Recent activity"
+msgstr ""
+
+#: overview/templates/overview/cando_snippet.html:4
+msgctxt ""
+"CanDo refers to tasks that a language student should learn how to do (e.g. "
+"\"I can ask for directions\" is a Can-Do statement), replace Can-Do with "
+"some phrase that communicates the ability to do something"
+msgid "CanDo statements"
+msgstr ""
+
+#: overview/templates/overview/cando_snippet.html:7
+msgid ""
+"\n"
+"\t\tBelow are functions of language that provide helpful markers on your "
+"language learning journey. \n"
+"\t\tThis is a useful self-assessment exercise. Please take the time to mark "
+"off the tasks you feel \n"
+"\t\tconfident in performing. Identifying tasks you are not confident in but "
+"would like to be confident in provide \n"
+"\t\ta content for your to focus on during your language lesson times.\n"
+"\t\t"
+msgstr ""
+
+#: overview/templates/overview/cando_snippet.html:22
+#, python-format
+msgid "Stage %(stage)s"
+msgstr ""
+
+#: overview/templates/overview/cando_snippet.html:32
+#: overview/templates/overview/review_summary_snippet.html:35
+msgid "Proficiency"
+msgstr ""
+
+#: overview/templates/overview/cando_snippet.html:34
+msgid ""
+"Consider how well you have internalised each of the following statements"
+msgstr ""
+
+#: overview/templates/overview/cando_snippet.html:35
+msgid "I cannot do this"
+msgstr ""
+
+#: overview/templates/overview/cando_snippet.html:36
+msgid "I have a little confidence in being able to do this task"
+msgstr ""
+
+#: overview/templates/overview/cando_snippet.html:37
+msgid "I am confident in being able to do this task"
+msgstr ""
+
+#: overview/templates/overview/cando_snippet.html:43
+msgid "Skill Type"
+msgstr ""
+
+#: overview/templates/overview/course_profile_update.html:5
+msgid "Courses Profile Edit Page"
+msgstr ""
+
+#: overview/templates/overview/email/complete_session.html:6
+msgid ""
+"\n"
+"    You have made a strong initial start in your language learning "
+"adventure, \n"
+"    however we noticed that you didn't complete your first coaching "
+"session.\n"
+"    "
+msgstr ""
+
+#: overview/templates/overview/email/complete_session.html:12
+#, python-format
+msgid ""
+"\n"
+"    Your session is waiting for you at %(domain)s. We wish you the very best "
+"in the days ahead.\n"
+"    If you have any questions or problems with our service, please do not "
+"hesitate to contact our customer support.\n"
+"    "
+msgstr ""
+
+#: overview/templates/overview/email/missed_four_weeks.html:7
+msgid "We have not seen you on {{website_url}} for over four weeks."
+msgstr ""
+
+#: overview/templates/overview/email/missed_four_weeks.html:10
+#: overview/templates/overview/email/missed_two_weeks.html:10
+msgid ""
+"We encourage you to not lose momentum and to try to log in once a week even "
+"if you haven't had much time recently to put into your language study."
+msgstr ""
+
+#: overview/templates/overview/email/missed_four_weeks.html:13
+#: overview/templates/overview/email/missed_two_weeks.html:13
+msgid "We wish you the best in your language learning journey!"
+msgstr ""
+
+#: overview/templates/overview/email/missed_two_weeks.html:7
+msgid "We have not seen you on {{website_url}} for over two weeks."
+msgstr ""
+
+#: overview/templates/overview/email/ping_inactive_mentor.html:3
+#, python-format
+msgid ""
+"It appears you haven't logged into your %(role_name)s account recently. Due "
+"to your inactivity, your previously set availabilities have been removed."
+msgstr ""
+
+#: overview/templates/overview/email/ping_inactive_mentor.html:4
+msgid ""
+"Please log in to reactivate your account and set new availability times that "
+"are convenient for you."
+msgstr ""
+
+#: overview/templates/overview/email/student_checked_in.html:7
+#, python-format
+msgid ""
+"Your student %(student_name)s just completed a check-in and left a report: "
+"%(link)s. As a coach you can:"
+msgstr ""
+
+#: overview/templates/overview/email/student_checked_in.html:11
+msgid "Review their latest check-in report"
+msgstr ""
+
+#: overview/templates/overview/email/student_checked_in.html:14
+msgid "Review their progress"
+msgstr ""
+
+#: overview/templates/overview/email/student_checked_in.html:17
+msgid ""
+"Write them encouraging feedback in answer to any questions or concerns they "
+"raised in their report"
+msgstr ""
+
+#: overview/templates/overview/email/student_checked_in.html:20
+#: overview/templates/overview/induction/coach_induction.html:27
+msgid ""
+"Select which coaching tips you would like them to be presented in their next "
+"session"
+msgstr ""
+
+#: overview/templates/overview/email/student_checked_in.html:24
+msgid "Thank you for investing into the language growth of your students!"
+msgstr ""
+
+#: overview/templates/overview/email/subscription_expiry_reminder.html:5
+#, python-format
+msgid ""
+"\n"
+"      The organization %(org_name)s for which you are a coordinator "
+"currently has %(current_licence_number)s %(role)s licences.\n"
+"    "
+msgstr ""
+
+#: overview/templates/overview/email/subscription_expiry_reminder.html:8
+#, python-format
+msgid ""
+"\n"
+"      These licences are due to expire soon on the date %(expiry_date)s.\n"
+"    "
+msgstr ""
+
+#: overview/templates/overview/email/subscription_expiry_reminder.html:11
+#, python-format
+msgid ""
+"\n"
+"      On this day, according to your instructions, "
+"%(upcoming_licence_number)s %(role)s licences will be repurchased.\n"
+"    "
+msgstr ""
+
+#: overview/templates/overview/email/subscription_expiry_reminder.html:17
+msgid ""
+"Please note that no credit card is currently registered for your "
+"organization and currently we will not be able to process your repurchasing "
+"instructions."
+msgstr ""
+
+#: overview/templates/overview/email/subscription_expiry_reminder.html:21
+#, python-format
+msgid ""
+"\n"
+"      If you would like to adjust these standing instuctions, please visit "
+"%(manage_licences_link)s before the expiry date %(expiry_date)s.\n"
+"    "
+msgstr ""
+
+#: overview/templates/overview/email/upcoming_booking_notification.html:2
+#, python-format
+msgid "Dear %(first_name)s"
+msgstr ""
+
+#: overview/templates/overview/email/upcoming_booking_notification.html:4
+#, python-format
+msgid ""
+"\n"
+"We wanted to remind you of your upcoming session that will take place on "
+"%(date_string)s\n"
+msgstr ""
+
+#: overview/templates/overview/email/upcoming_booking_notification.html:8
+msgid "You can join the meeting using the following link:"
+msgstr ""
+
+#: overview/templates/overview/email/upcoming_booking_notification.html:11
+msgid "Please be there on time, or manage your upcoming sessions here:"
+msgstr ""
+
+#: overview/templates/overview/induction/cc_induction.html:5
+#, python-format
+msgid "Congratulations %(username)s on registering as a Content Creator"
+msgstr ""
+
+#: overview/templates/overview/induction/cc_induction.html:19
+msgid ""
+"\n"
+"    You have just successfully enrolled as a Content Creator for GFGD (Grow "
+"Fast Grow Deep) in the following languages:    \n"
+"    "
+msgstr ""
+
+#: overview/templates/overview/induction/cc_induction.html:28
+#: overview/templates/overview/induction/coach_induction.html:21
+#: overview/templates/overview/induction/coordinator_induction.html:21
+#: overview/templates/overview/induction/teacher_induction.html:20
+#: overview/templates/overview/induction/translator_induction.html:21
+msgctxt ""
+"as in \"Your position as a Coach/ContentCreator/Translator has a lot of "
+"importance and responsibility\""
+msgid "Yours is a responsible position"
+msgstr ""
+
+#: overview/templates/overview/induction/cc_induction.html:30
+msgctxt "Content Creators can do the following things listed below"
+msgid "Content Creators..."
+msgstr ""
+
+#: overview/templates/overview/induction/cc_induction.html:32
+msgid "Create Grammars for a language course"
+msgstr ""
+
+#: overview/templates/overview/induction/cc_induction.html:33
+msgid "Write Quiz questions and other assessment content"
+msgstr ""
+
+#: overview/templates/overview/induction/cc_induction.html:34
+msgid "Write and edit Coaching articles in the coaching tips library"
+msgstr ""
+
+#: overview/templates/overview/induction/cc_induction.html:37
+#: overview/templates/overview/induction/coach_induction.html:30
+#: overview/templates/overview/induction/coordinator_induction.html:30
+#: overview/templates/overview/induction/teacher_induction.html:28
+#: overview/templates/overview/induction/translator_induction.html:29
+msgid ""
+"Please take some time to browse the different page options presented to you."
+msgstr ""
+
+#: overview/templates/overview/induction/cc_induction.html:40
+#: overview/templates/overview/induction/coordinator_induction.html:33
+#: overview/templates/overview/induction/translator_induction.html:32
+msgid ""
+"\n"
+"    Thank you for helping to make GFGD (Grow Fast Grow Deep) an excellent "
+"tool for assisting others in their language learning.\n"
+"    "
+msgstr ""
+
+#: overview/templates/overview/induction/coach_induction.html:5
+#, python-format
+msgid "Congratulations %(username)s on registering as a Coach"
+msgstr ""
+
+#: overview/templates/overview/induction/coach_induction.html:19
+msgid ""
+"You have just successfully enrolled as a Coach for GFGD (Grow Fast Grow "
+"Deep)."
+msgstr ""
+
+#: overview/templates/overview/induction/coach_induction.html:23
+msgctxt "Coaches can do the following things listed below"
+msgid "Coaches..."
+msgstr ""
+
+#: overview/templates/overview/induction/coach_induction.html:25
+msgid "Track their students' progress via the coaching dashboard page"
+msgstr ""
+
+#: overview/templates/overview/induction/coach_induction.html:26
+msgid ""
+"Write advice and encouraging feedback in answer to any questions or concerns "
+"they raised in their reports"
+msgstr ""
+
+#: overview/templates/overview/induction/coach_induction.html:33
+msgid ""
+"\n"
+"    Thank you for investing into the language development of your students "
+"and making GFGD an excellent tool for assisting others in their language "
+"learning.\n"
+"    "
+msgstr ""
+
+#: overview/templates/overview/induction/coordinator_induction.html:5
+#, python-format
+msgid "Congratulations %(username)s on registering as a Coordinator "
+msgstr ""
+
+#: overview/templates/overview/induction/coordinator_induction.html:19
+msgid ""
+"You have just successfully enrolled as a Coordinator for GFGD (Grow Fast "
+"Grow Deep)."
+msgstr ""
+
+#: overview/templates/overview/induction/coordinator_induction.html:23
+msgid "As a Coordinator you now have an authority for..."
+msgstr ""
+
+#: overview/templates/overview/induction/coordinator_induction.html:25
+msgid "Managing subscribers."
+msgstr ""
+
+#: overview/templates/overview/induction/coordinator_induction.html:26
+msgid "Modify details of subscribers."
+msgstr ""
+
+#: overview/templates/overview/induction/coordinator_induction.html:27
+msgid "Make further purchases with registered payment methods."
+msgstr ""
+
+#: overview/templates/overview/induction/teacher_induction.html:5
+#, python-format
+msgid "Congratulations %(username)s on registering as a Teacher"
+msgstr ""
+
+#: overview/templates/overview/induction/teacher_induction.html:18
+msgid ""
+"You have just successfully enrolled as a Teacher for GFGD (Grow Fast Grow "
+"Deep)."
+msgstr ""
+
+#: overview/templates/overview/induction/teacher_induction.html:22
+msgctxt "Teachers can do the following things listed below"
+msgid "Teachers..."
+msgstr ""
+
+#: overview/templates/overview/induction/teacher_induction.html:24
+msgid "Teach the language to their students"
+msgstr ""
+
+#: overview/templates/overview/induction/teacher_induction.html:25
+msgid "Track their students' progress via the teaching dashboard page"
+msgstr ""
+
+#: overview/templates/overview/induction/teacher_induction.html:31
+msgid ""
+"\n"
+"            Thank you for investing into the language development of your "
+"students and making GFGD an excellent tool for assisting others in their "
+"language learning.\n"
+"        "
+msgstr ""
+
+#: overview/templates/overview/induction/translator_induction.html:5
+#, python-format
+msgid "Congratulations %(username)s on registering as a Translator"
+msgstr ""
+
+#: overview/templates/overview/induction/translator_induction.html:19
+msgid ""
+"You have just successfully enrolled as a Translator for GFGD (Grow Fast Grow "
+"Deep)."
+msgstr ""
+
+#: overview/templates/overview/induction/translator_induction.html:23
+msgid "You can do the following things for your native language(s)..."
+msgstr ""
+
+#: overview/templates/overview/induction/translator_induction.html:25
+msgid ""
+"Add translations for quiz questions, coaching articles and GFGD's website "
+"interface."
+msgstr ""
+
+#: overview/templates/overview/induction/translator_induction.html:26
+msgid ""
+"Judge whether or not answers given by students learning your native language "
+"are valid."
+msgstr ""
+
+#: overview/templates/overview/profile_new_user.html:5
+msgid "Welcome! Tell us a little about yourself"
+msgstr ""
+
+#: overview/templates/overview/review_summary.html:4
+msgid "Review Summary"
+msgstr ""
+
+#: overview/templates/overview/review_summary_snippet.html:6
+msgid "My materials"
+msgstr ""
+
+#: overview/templates/overview/review_summary_snippet.html:14
+msgid "Coaching article"
+msgstr ""
+
+#: overview/templates/overview/review_summary_snippet.html:18
+msgid "Last quiz results"
+msgstr ""
+
+#: overview/templates/overview/review_summary_snippet.html:22
+msgid "View archive"
+msgstr ""
+
+#: overview/templates/overview/review_summary_snippet.html:26
+msgid "CanDo"
+msgstr ""
+
+#: overview/templates/overview/review_summary_snippet.html:34
+msgid "Learning Focus"
+msgstr ""
+
+#: overview/templates/overview/settings/profile_update.html:5
+msgid "Settings - My Profile"
+msgstr ""
+
+#: overview/templates/overview/settings/profile_update.html:25
+msgid "About me"
+msgstr ""
+
+#: overview/templates/overview/settings/profile_update.html:29
+msgid "My languages"
+msgstr ""
+
+#: overview/templates/overview/settings/profile_update.html:33
+msgid "Notification preferences"
+msgstr ""
+
+#: overview/templates/overview/settings/profile_update.html:37
+msgid "My courses"
+msgstr ""
+
+#: overview/templates/overview/settings/profile_update.html:40
+msgid "Change password"
+msgstr ""
+
+#: overview/templates/overview/settings/profile_update.html:89
+msgid "An error occured while saving the changes"
+msgstr ""
+
+#: overview/templates/overview/token_invalid.html:4
+msgid "Token invalid"
+msgstr ""
+
+#: overview/templates/overview/token_invalid.html:9
+msgid "This token has either expired or the link is incorrect."
+msgstr ""
+
+#: overview/templates/overview/token_invite_to_apply.html:4
+msgid "Receive the following privileges"
+msgstr ""
+
+#: overview/templates/overview/token_invite_to_apply.html:14
+#, python-format
+msgid ""
+"\n"
+"            You are currently logged in as <b>%(fullname)s</b>. \n"
+"        "
+msgstr ""
+
+#: overview/templates/overview/token_invite_to_apply.html:19
+msgctxt "Keep the <b> and </b> html tags to allow APPLY to be shown in bold"
+msgid ""
+"If this is your correct account, click <b>APPLY</b> to apply this token to "
+"your account. Otherwise click logout to register or select another account."
+msgstr ""
+
+#: overview/templates/overview/token_invite_to_apply.html:23
+msgctxt "Apply this token to my account"
+msgid "Apply"
+msgstr ""
+
+#: overview/templates/overview/token_invite_to_apply.html:26
+#: templates/navbar.html:142
+msgid "Log out"
+msgstr ""
+
+#: overview/templates/overview/token_invite_to_apply.html:31
+msgid "You are not currently logged in."
+msgstr ""
+
+#: overview/templates/overview/token_invite_to_apply.html:34
+msgid ""
+"Choose <b>REGISTER</b> to register a new account or <b>LOG IN</b> to apply "
+"this token to your existing account."
+msgstr ""
+
+#: overview/templates/overview/token_invite_to_apply.html:38
+msgctxt "Register a new account"
+msgid "Register"
+msgstr ""
+
+#: overview/templates/overview/token_invite_to_apply.html:41
+#: templates/registration/login.html:5 templates/registration/login.html:22
+msgid "Log in"
+msgstr ""
+
+#: overview/usecases/background_tasks.py:132
+#, python-brace-format
+msgid "We've missed you {user_name}"
+msgstr ""
+
+#: overview/usecases/background_tasks.py:186
+msgid "Your upcoming booking"
+msgstr ""
+
+#: overview/usecases/coordinator.py:95
+#, python-brace-format
+msgid "You are not authorized to manage this organization {title}"
+msgstr ""
+
+#: overview/usecases/overview.py:59
+msgid ""
+"An email change confirmation has been sent to your new email address. Please "
+"check your inbox"
+msgstr ""
+
+#: overview/usecases/overview.py:64
+msgid ""
+"An error occurred while trying to send an email to your new email address. "
+"Please retry or contact the site administrator"
+msgstr ""
+
+#: overview/usecases/overview.py:101
+msgid "GrowFastGrowDeep : Email change confirmation"
+msgstr ""
+
+#: overview/usecases/registration.py:21
+msgid "Welcome to GrowFastGrowDeep"
+msgstr ""
+
+#: overview/usecases/registration.py:37
+#, python-brace-format
+msgid ""
+"You have successfully registered as a student with {mentor_name} as your "
+"{mentor_type}."
+msgstr ""
+
+#: overview/usecases/registration.py:41 overview/usecases/token.py:301
+#, python-brace-format
+msgid ""
+"{student} has registered to the {course_name} course after you invited them"
+msgstr ""
+
+#: overview/usecases/registration.py:60
+#, python-brace-format
+msgid "{student} has had {new_mentor} replaced you as his/her {mentor_type}"
+msgstr ""
+
+#: overview/usecases/registration.py:69
+msgid "You need to accept the Terms of Service and Privacy policy"
+msgstr ""
+
+#: overview/usecases/registration.py:73
+msgid "You need to accept the Privacy Policy"
+msgstr ""
+
+#: overview/usecases/token.py:190
+#, python-format
+msgid "You will be given a %(role)s role."
+msgstr ""
+
+#: overview/usecases/token.py:216 overview/usecases/token.py:226
+#, python-format
+msgid "You will be added to %(org_title)s as a %(role)s."
+msgstr ""
+
+#: overview/usecases/token.py:240
+#, python-format
+msgid "You will be assigned as %(class_type)s for %(student_name)s"
+msgstr ""
+
+#: overview/usecases/token.py:261
+msgid "Student of Grow Fast Grow Deep"
+msgstr ""
+
+#: overview/usecases/token.py:271
+#, python-format
+msgid "Being taught by %(teacher_name)s"
+msgstr ""
+
+#: overview/usecases/token.py:279
+#, python-format
+msgid "Being coached by %(coach_name)s"
+msgstr ""
+
+#: overview/usecases/token.py:287
+#, python-format
+msgid "Being assisted by %(pp_name)s"
+msgstr ""
+
+#: overview/usecases/token.py:362
+#, python-format
+msgid ""
+"Adding permissions to serve as a Content Creator for the languages: "
+"%(language_names)s. (Content Creators are able to add content to language "
+"courses and coaching articles.)"
+msgstr ""
+
+#: overview/usecases/token.py:540
+msgid "Invitation to GrowFastGrowDeep"
+msgstr ""
+
+#: overview/views/token.py:51
+msgid "The token has been applied."
+msgstr ""
+
+#: overview/views/token.py:94
+msgid "Invite user to an admin role"
+msgstr ""
+
+#: overview/views/token.py:125
+msgid "Additional invitation information"
+msgstr ""
+
+#: overview/views/token.py:142
+#, python-brace-format
+msgid "Successfully cancelled {user_role} invitation for {name} - {email}"
+msgstr ""
+
+#: overview/views/weekly_checkup.py:121
+msgid "Not yet measured"
+msgstr ""
+
+#: pronunciation/forms.py:27
+msgid "Display text is required"
+msgstr ""
+
+#: pronunciation/forms.py:80
+msgid "Feature template is required"
+msgstr ""
+
+#: pronunciation/forms.py:82
+msgid "Extra data is required"
+msgstr ""
+
+#: pronunciation/forms.py:117
+msgid "Question text is required"
+msgstr ""
+
+#: pronunciation/forms.py:119
+msgid "Priority is required"
+msgstr ""
+
+#: pronunciation/forms.py:121
+msgid "At least two answers are required"
+msgstr ""
+
+#: templates/403.html:7
+msgid ""
+"You do not have permission to access this page. If you believe this is an "
+"error, please let us know."
+msgstr ""
+
+#. Translators: Title to a page that tells the users details about the GrowFastGrowDeep company, as in 'learn more about us'
+#: templates/about.html:5 templates/about.html:51
+msgid "About us"
+msgstr ""
+
+#: templates/about.html:54
+msgctxt ""
+"This is a header for a section with details about contact details for users "
+"who need to contact the website support team"
+msgid "Support"
+msgstr ""
+
+#. Translators: As in 'To contact website support team, here are their contact details:'
+#: templates/about.html:60 templates/maintenance.html:1034
+msgid "Technical support"
+msgstr ""
+
+#: templates/about.html:70
+msgid "For other support and business enquiries,"
+msgstr ""
+
+#: templates/about.html:76
+msgid "Email us"
+msgstr ""
+
+#: templates/about.html:91
+msgid "Call us"
+msgstr ""
+
+#: templates/about.html:104
+msgid "Our address"
+msgstr ""
+
+#: templates/attributions.html:5 templates/footer.html:64
+#: templates/reporting_copyright_infringements.html:5
+msgid "All attributions"
+msgstr ""
+
+#: templates/category_dropdowns.html:48
+msgid "No items registered for this category - click here to create"
+msgstr ""
+
+#: templates/comments/comment_list.html:31
+msgid "1 comment"
+msgstr ""
+
+#: templates/comments/comment_list.html:34
+msgid "[[ comment_ids.length ]] comments"
+msgstr ""
+
+#: templates/comments/comment_list.html:67
+#: templates/comments/comment_list.html:96
+#: templates/comments/comment_thread.html:88
+msgid "Show more replies"
+msgstr ""
+
+#: templates/comments/comment_list.html:128
+#: templates/comments/comment_list.html:146
+#: templates/comments/comment_thread.html:124
+msgid "Reply"
+msgstr ""
+
+#: templates/comments/comment_list.html:166
+msgid "Add new comment"
+msgstr ""
+
+#: templates/comments/comment_thread.html:32
+msgid "Go back"
+msgstr ""
+
+#: templates/comments/comment_thread.html:55
+msgid "[[ commentCount ]] comments"
+msgstr ""
+
+#: templates/comments/comment_thread.html:138
+#: templates/comments/comment_thread.html:144
+msgid "Add reply"
+msgstr ""
+
+#: templates/cookies.html:5 templates/footer.html:58 templates/footer.html:83
+msgid "Cookies policy"
+msgstr ""
+
+#: templates/footer.html:40 templates/landing_page.html:48
+#: templates/landing_page.html:51
+msgid ""
+"Grow Fast Grow Deep is the language tool for those serious about reaching "
+"fluency."
+msgstr ""
+
+#: templates/footer.html:44
+msgid "Explore"
+msgstr ""
+
+#. Translators: A link to a page that tells the users details about the GrowFastGrowDeep company, as in 'learn more about us'
+#: templates/footer.html:46 templates/footer.html:72 templates/navbar.html:152
+msgid "About"
+msgstr ""
+
+#: templates/footer.html:47 templates/footer.html:73
+#: templates/how-does-it-work.html:5 templates/how-does-it-work.html:20
+#: templates/navbar.html:155
+msgid "How does it work?"
+msgstr ""
+
+#: templates/footer.html:48 templates/footer.html:74 templates/navbar.html:158
+msgid "Help/FAQ"
+msgstr ""
+
+#: templates/footer.html:49 templates/navbar.html:107 templates/navbar.html:140
+#: templates/navbar.html:148
+msgid "Blog"
+msgstr ""
+
+#: templates/footer.html:53 templates/footer.html:76
+msgid "Legal"
+msgstr ""
+
+#: templates/footer.html:55 templates/footer.html:79 templates/footer.html:81
+msgid "Terms of service"
+msgstr ""
+
+#: templates/footer.html:56 templates/footer.html:80
+msgid "Reporting copyright infringements"
+msgstr ""
+
+#: templates/footer.html:57 templates/footer.html:82 templates/privacy.html:5
+msgid "Privacy policy"
+msgstr ""
+
+#: templates/footer.html:62
+msgid "Others"
+msgstr ""
+
+#: templates/frequently-asked-questions.html:5
+#: templates/frequently-asked-questions.html:51
+msgid "Frequently asked questions"
+msgstr ""
+
+#: templates/frequently-asked-questions.html:64
+msgid "How is Grow Fast Grow Deep unique from other language learning apps?"
+msgstr ""
+
+#: templates/frequently-asked-questions.html:72
+msgid ""
+"\n"
+"                                    Most language students don’t know how to "
+"effectively use their time to learn a language. \n"
+"                                    Typically an aspiring language student "
+"selects one of two primary ways of learning: \n"
+"                                    <i>Signing up to a class, or downloading "
+"a language learning app.</i>\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:80
+msgid "Language learning apps"
+msgstr ""
+
+#: templates/frequently-asked-questions.html:82
+msgid ""
+"\n"
+"                                            Most language learning apps "
+"attempt to teach you language through their app. \n"
+"                                            The premise is that time spent "
+"on the app is time well spent learning a language. \n"
+"                                            Unfortunately research suggests "
+"real-world interaction is essential for effective language learning.\n"
+"                                        "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:88
+msgid "Classroom learning"
+msgstr ""
+
+#: templates/frequently-asked-questions.html:90
+msgid ""
+"\n"
+"                                            While classrooms can be an "
+"element within an effective learning pathway, \n"
+"                                            class alone does not bring "
+"students to fluency. Language students needs a far more holistic plan \n"
+"                                            that teaches them how to immerse "
+"themselves in community environments and how to make the most of those "
+"opportunities.\n"
+"                                        "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:99
+msgid ""
+"\n"
+"                                    Developing a highly effective language "
+"learning plan is not easy. Hence our research shows us that students who are "
+"coached \n"
+"                                    through their language learning attain "
+"their fluency goals in a fraction of the time it takes non-coached "
+"students.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:105
+msgid ""
+"\n"
+"                                    The Grow Fast Grow Deep app is not "
+"seeking to be a complete language acquisition tool, instead it is your "
+"coaching solution. \n"
+"                                    By learning about your circumstances and "
+"Artificial Intelligence, Grow Fast Grow Deep will track your progress, \n"
+"                                    give you feedback on your strengths and "
+"weaknesses, advise you on techniques that are most needed \n"
+"                                    by you at your current point of "
+"development, and guide you in fruitful self-evaluation.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:124
+msgid "Do you teach language, or coach people to learn language?"
+msgstr ""
+
+#: templates/frequently-asked-questions.html:131
+msgid "We can provide both teaching and coaching."
+msgstr ""
+
+#: templates/frequently-asked-questions.html:133
+msgid ""
+"\n"
+"                                    Coaching is about choosing learning "
+"techniques (strategies) that work for you and are most effective \n"
+"                                    for your current level of language "
+"competence. Coaching is a huge time and money saver. A well-coached language "
+"student \n"
+"                                    can learn in twice or three-times the "
+"speed of a student who receives no personalized coaching.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:140
+msgid ""
+"\n"
+"                                    Surprisingly the most effective learning "
+"pathways recognized by linguistic research do not revolve primarily \n"
+"                                    around surrendering your language "
+"learning into the hands of a language classroom teacher. It involves "
+"developing techniques \n"
+"                                    that work for you. Techniques to immerse "
+"yourself amongst native speakers. Techniques to give your plenty of "
+"opportunities \n"
+"                                    to practice and receive feedback from "
+"native speakers. Techniques to effectively internalize what you are "
+"learning. \n"
+"                                    Techniques to avoid wasted time and "
+"effort.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:148
+msgid "Coaching is about finding that most effective pathway for you."
+msgstr ""
+
+#: templates/frequently-asked-questions.html:150
+msgid ""
+"\n"
+"                                    Formal instruction in your target "
+"language can be obtained from a variety of sources – books, online "
+"resources, \n"
+"                                    registering to a class, or hiring a "
+"personal tutor. To tailor to our user’s different budgets we allow our "
+"students \n"
+"                                    to find and select their own language "
+"teaching method. However our GOLD plan provides language teaching options \n"
+"                                    for our students who want the best "
+"results in the fastest time.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:169
+msgid "What is language coaching?"
+msgstr ""
+
+#: templates/frequently-asked-questions.html:177
+msgid ""
+"\n"
+"                                    Language coaching is the process of "
+"assessing a student’s progress and directing them in the most effective "
+"strategies. \n"
+"                                    Our Coaching is based on the most recent "
+"insights from Applied Linguistics for Second Language Acquisition. \n"
+"                                    Language coaching is a huge time and "
+"money saver. A well-coached language student can learn in twice or \n"
+"                                    three-times the speed of a student who "
+"receives no personalized coaching.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:185
+msgid ""
+"\n"
+"                                    We ask you questions about your current "
+"learning environment, style, progress and personality. \n"
+"                                    This information is matched to similar "
+"students and the success they have seen using different language learning "
+"techniques. \n"
+"                                    Drawing from a huge databank of proven "
+"strategies and techniques, we match you with the advice you need \n"
+"                                    right now in your language journey to "
+"see the best results. Each week we ask you to log in again to report on your "
+"progress, \n"
+"                                    your activities and for another language "
+"learning assessment. At the end of each week’s coaching session \n"
+"                                    you receive feedback on your evaluation "
+"and advice on how you can tweak your current language learning approach. \n"
+"                                    This coaching evaluation can then be "
+"utilized throughout your coming week to direct your learning activities.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:196
+msgid ""
+"\n"
+"                                    Coaching evaluations and guidance can be "
+"shared with language tutors or teachers \n"
+"                                    as they provide invaluable insights to "
+"directing education tailored to your current progress and situation.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:213
+msgid "How does Artificial intelligence come into it?"
+msgstr ""
+
+#: templates/frequently-asked-questions.html:221
+msgid ""
+"\n"
+"                                    Grow Fast Grow Deep is focused on "
+"incorporating the very best of Applied Linguistics research coupled \n"
+"                                    with insights from our students. As you "
+"track your language journey with Grow Fast Grow Deep, \n"
+"                                    we compare your situation to similar "
+"language students and can make recommendations of learning techniques \n"
+"                                    that are proving to be the most "
+"effective in attaining fluency goals. Grow Fast Grow Deep is a continually "
+"learning system \n"
+"                                    that adapts to new technologies and "
+"opportunities that appear for the different languages offered in our "
+"courses.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:241
+msgid "How much time does your program require?"
+msgstr ""
+
+#: templates/frequently-asked-questions.html:249
+msgid ""
+"\n"
+"                                    It is up to you. We tailor our learning "
+"pathway to your availability. Grow Fast Grow Deep is developed \n"
+"                                    with language students in mind who will "
+"study a language full-time (30 hours a week or more) down to a hobbiest \n"
+"                                    who will study a language for only 2 "
+"hours a week. Each profile will affect the pathway we will advise you on.\n"
+"                                "
+msgstr ""
+
+#: templates/frequently-asked-questions.html:256
+msgid ""
+"\n"
+"                                    Around 20 minutes a week will be spent "
+"going through a coaching session via our service. \n"
+"                                    At the end of your coaching session you "
+"will receive specific feedback, goals and direction \n"
+"                                    for the rest of your language learning "
+"time during your week.\n"
+"                                "
+msgstr ""
+
+#: templates/how-does-it-work.html:29
+msgid "Coaching"
+msgstr ""
+
+#: templates/how-does-it-work.html:33
+msgid ""
+"\n"
+"                                    We offer expert coaching to greatly "
+"reduce the time it takes for you to reach your fluency goals. Our A.I. and \n"
+"                                    human language coaches (available in the "
+"Silver and Gold tiers) will ensure your language learning time is invested "
+"the right way.\n"
+"                                "
+msgstr ""
+
+#: templates/how-does-it-work.html:39
+msgid "Weekly coaching sessions informed by your reflections and progress."
+msgstr ""
+
+#: templates/how-does-it-work.html:40
+msgid "Quizzes tailored for you by your coach."
+msgstr ""
+
+#: templates/how-does-it-work.html:41
+msgid "Advice from your coach for your present language level and situation."
+msgstr ""
+
+#: templates/how-does-it-work.html:54
+msgid ""
+"One size doesn’t fit all. You need a tailored program! Our Artificial "
+"Intelligence coach"
+msgstr ""
+
+#: templates/how-does-it-work.html:58
+msgctxt ""
+"This line is preceded by another saying 'Our articificial intelligence ...'"
+msgid "learns about your learning goals and environment"
+msgstr ""
+
+#: templates/how-does-it-work.html:61
+msgctxt ""
+"This line is preceded by another saying 'Our articificial intelligence ...'"
+msgid "tracks your progress"
+msgstr ""
+
+#: templates/how-does-it-work.html:63
+msgctxt ""
+"This line is preceded by another saying 'Our articificial intelligence ...'"
+msgid ""
+"helps you tailor your learning to maximise the opportunities available to you"
+msgstr ""
+
+#: templates/how-does-it-work.html:73
+msgid "Ideal for organizations"
+msgstr ""
+
+#: templates/how-does-it-work.html:77
+msgid ""
+"\n"
+"                                    Does your organization need to help "
+"expats learn the language in order to do their jobs well? \n"
+"                                    Grow Fast Grow Deep is built with "
+"organizational needs specifically in mind.\n"
+"                                "
+msgstr ""
+
+#: templates/how-does-it-work.html:83
+msgid "Language goals are made to fit your workplace"
+msgstr ""
+
+#: templates/how-does-it-work.html:85
+msgid ""
+"\n"
+"                                        Exams are designed specifically for "
+"your industry so your employees can be learning the vocab \n"
+"                                        they need to succeed at their job "
+"Progress tracking holds students accountable and is visible to "
+"organizational leaders\n"
+"                                    "
+msgstr ""
+
+#: templates/how-does-it-work.html:90
+msgid ""
+"Weekly reports ensure our A.I. coach is continually tailoring our courses "
+"for your employees"
+msgstr ""
+
+#: templates/how-does-it-work.html:91
+msgid "A.I. estimated graduation date keeps language learners motivated"
+msgstr ""
+
+#: templates/landing_page.html:6
+msgid "Welcome"
+msgstr ""
+
+#: templates/landing_page.html:45
+msgid "Serious about learning a language?"
+msgstr ""
+
+#. Translators: As in 'Website is under maintenance'
+#: templates/maintenance.html:9 templates/maintenance.html:183
+msgid "Site Maintenance"
+msgstr ""
+
+#: templates/maintenance.html:185
+msgid ""
+"Sorry for the inconvenience, but we're currently performing some maintenance "
+"and should be back online in a few minutes."
+msgstr ""
+
+#: templates/maintenance.html:1027
+msgid "Refresh"
+msgstr ""
+
+#: templates/messages.html:13
+msgid "Dismiss"
+msgstr ""
+
+#: templates/navbar.html:56
+msgid "Administrators"
+msgstr ""
+
+#: templates/navbar.html:69
+msgid "Target language health"
+msgstr ""
+
+#: templates/navbar.html:71
+msgid "Check sentence translations"
+msgstr ""
+
+#: templates/navbar.html:75 templates/navbar.html:85
+msgid "Coaching Tips"
+msgstr ""
+
+#: templates/navbar.html:77
+msgid "Available Reverse Questions"
+msgstr ""
+
+#: templates/navbar.html:78
+msgid "Sentences from Examples"
+msgstr ""
+
+#: templates/navbar.html:79
+msgid "Upload file"
+msgstr ""
+
+#: templates/navbar.html:80
+msgid "Problem Questions"
+msgstr ""
+
+#: templates/navbar.html:81
+msgid "CanDo statements"
+msgstr ""
+
+#: templates/navbar.html:84
+msgid "Coaching dashboard"
+msgstr ""
+
+#: templates/navbar.html:87
+msgid "Coordinator dashboard"
+msgstr ""
+
+#: templates/navbar.html:89
+msgid "Organization Free Trials"
+msgstr ""
+
+#: templates/navbar.html:90
+msgid "Organization groups"
+msgstr ""
+
+#: templates/navbar.html:93
+msgid "Teaching dashboard"
+msgstr ""
+
+#: templates/navbar.html:99
+msgid "Add Languages"
+msgstr ""
+
+#: templates/navbar.html:100
+msgid "Invite"
+msgstr ""
+
+#: templates/navbar.html:101
+msgid "Organizations"
+msgstr ""
+
+#: templates/navbar.html:102
+msgid "Admin portal"
+msgstr ""
+
+#: templates/navbar.html:103
+msgid "User Stats"
+msgstr ""
+
+#: templates/navbar.html:104
+msgid "A-B Test Dashboard"
+msgstr ""
+
+#: templates/navbar.html:105
+msgid "Analytics"
+msgstr ""
+
+#: templates/navbar.html:106
+msgid "Email Portal"
+msgstr ""
+
+#: templates/navbar.html:108
+msgid "Announcements"
+msgstr ""
+
+#: templates/navbar.html:109
+msgid "Language blunders competition"
+msgstr ""
+
+#: templates/navbar.html:130
+msgid "My account"
+msgstr ""
+
+#: templates/navbar.html:133
+msgid "Settings"
+msgstr ""
+
+#: templates/navbar.html:135
+msgid "Notifications"
+msgstr ""
+
+#: templates/navbar.html:138
+msgid "Change course"
+msgstr ""
+
+#: templates/navbar.html:141
+msgid "Change User Role"
+msgstr ""
+
+#: templates/navbar.html:161 templates/registration/logged_out.html:12
+#: templates/registration/password_reset_complete.html:8
+msgid "Login"
+msgstr ""
+
+#: templates/registration/logged_out.html:4
+msgid "Logged out"
+msgstr ""
+
+#: templates/registration/logged_out.html:9
+msgid "You have been successfully logged out. You can log-in again."
+msgstr ""
+
+#: templates/registration/login.html:13
+msgid "Your username/email and password didn't match. Please try again."
+msgstr ""
+
+#: templates/registration/login.html:27
+msgid "I have forgotten my password"
+msgstr ""
+
+#: templates/registration/password_change_done.html:4
+#: templates/registration/password_change_done.html:7
+msgid "Password changed"
+msgstr ""
+
+#: templates/registration/password_change_form.html:4
+#: templates/registration/password_change_form.html:7
+msgid "Change your password"
+msgstr ""
+
+#: templates/registration/password_change_form.html:10
+msgid "Change"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:4
+msgid "Password reset"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:7
+msgid "Your password has been set. You can log in now"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:4
+#: templates/registration/password_reset_done.html:4
+#: templates/registration/password_reset_done.html:7
+#: templates/registration/password_reset_form.html:5
+msgid "Reset your password"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:8
+msgid "Please enter your new password twice:"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:11
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:8
+msgid "We've emailed you instructions for setting your password."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:9
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+msgstr ""
+
+#: templates/registration/password_reset_email.html:3
+msgid "Grow Fast Grow Deep - Password reset code"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:5
+msgid "You can use the following link to reset your password"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:13
+#, python-format
+msgid "Registered email address: %(email)s "
+msgstr ""
+
+#: templates/registration/password_reset_email.html:14
+msgid "Username:"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:16
+msgid "Grow Fast Grow Deep Team"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:8
+msgid "Forgotten your password?"
+msgstr ""
+
+#: templates/registration/password_reset_form.html:9
+msgid "Enter your e-mail address to obtain a new password."
+msgstr ""
+
+#: templates/registration/password_reset_form.html:12
+msgid "Send email"
+msgstr ""
+
+#: templates/registration/password_reset_subject.txt:2
+msgid "Password Reset Request"
+msgstr ""
+
+#. Translators : sign up
+#: templates/registration/signup.html:10 templates/registration/signup.html:52
+msgid "Create an account"
+msgstr ""
+
+#: templates/registration/signup.html:17
+msgid "Retrieve account for this email"
+msgstr ""
+
+#: templates/registration/signup.html:34 templates/registration/signup.html:41
+msgid "I have read and accept"
+msgstr ""
+
+#: templates/registration/signup.html:35
+msgid "Terms and Conditions of Service"
+msgstr ""
+
+#: templates/registration/signup.html:42
+msgid "Privacy Policy"
+msgstr ""
+
+#: templates/report_bug_page.html:5
+msgid "Hey, congratulations, you found a bug!!"
+msgstr ""
+
+#: templates/report_bug_page.html:8
+msgid ""
+"We know this website has a few still hiding in its dark recesses and we are "
+"keen to eradicate them all."
+msgstr ""
+
+#: templates/report_bug_page.html:11
+msgid "Please email our bug catcher team at "
+msgstr ""
+
+#: templates/report_bug_page.html:13
+msgid ""
+", describe what you were doing which led to this bug and we'll put your name "
+"in the draw for the Starbucks voucher."
+msgstr ""
+
+#: templates/report_bug_page.html:16
+msgid "Thank you,<br>The Dev team at GrowFastGrowDeep.com"
+msgstr ""
+
+#: templates/simple_searchbox.html:11 templates/simple_searchbox.html:19
+msgid "Search"
+msgstr ""
+
+#: templates/terms.html:5
+msgid "Terms and conditions of service"
+msgstr ""
+
+#: templates/vote_icons.html:15
+msgid "Not helpful"
+msgstr ""
+
+#: templates/vote_icons.html:22
+msgid "Flag as inappropriate"
+msgstr ""
